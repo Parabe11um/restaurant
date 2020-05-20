@@ -16,3 +16,27 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+/*
+|--------------------------------------------------------------------------
+| Start restaurant routes
+*/
+
+Route::group([
+    'prefix' => '/restaurant',
+    'as' => 'restaurant::'
+],
+    function () {
+        Route::post('/add', 'restaurantController@add')
+            ->name('add');
+        Route::post('/delete/{id}', 'restaurantController@delete')
+            ->name('delete');
+        Route::post('/search/{words}', 'restaurantController@search')
+            ->name('search');
+    }
+);
+
+/*
+| Start restaurant routes
+|--------------------------------------------------------------------------
+*/
