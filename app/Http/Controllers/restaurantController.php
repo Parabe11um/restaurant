@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class restaurantController extends Controller
 {
@@ -18,6 +19,10 @@ class restaurantController extends Controller
 
     function delete($id)
     {
-        //TODO write this
+// получить текущего залогиненного юзера
+//        $user = Auth::user();
+// получить id текущего залогиненного юзера
+//        $id = Auth::id();
+        //TODO write this with check user id = user id
     }
 }
