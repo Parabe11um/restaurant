@@ -31,7 +31,7 @@ Route::group([
             ->name('add');
         Route::post('/delete/{id}', 'restaurantController@delete')
             ->name('delete');
-        Route::post('/search/{words}', 'restaurantController@search')
+        Route::get('/search/{words}', 'restaurantController@search')
             ->name('search');
     }
 );
