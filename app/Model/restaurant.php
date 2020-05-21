@@ -26,6 +26,7 @@ class restaurant extends Model
         'r_address' => 'max:500|min:10',
         'r_site' => 'url',
         'r_email' => 'email:rfc,dns',
-        'r_tables' => 'Required|JSON',
+//        DANGER включить правило
+//        'r_tables' => 'Required|JSON',
     ];
 }

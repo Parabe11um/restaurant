@@ -23,8 +23,8 @@ Route::get('/', function () {
 */
 
 Route::group([
-    'prefix' => '/restaurant',
-    'as' => 'restaurant::'
+    'prefix' => '/rest',
+    'as' => 'rest::'
 ],
     function () {
         Route::post('/add', 'restaurantController@add')

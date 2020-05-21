@@ -25,7 +25,9 @@ class restaurantController extends Controller
 
     function delete($id)
     {
-
+//        $userAuthId = Auth::id();
+        $restaurant = restaurant::find($id);
+//        $restaurant =
 
     }
 }
