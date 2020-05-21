@@ -29,7 +29,8 @@ Route::group([
     function () {
         Route::post('/add', 'restaurantController@add')
             ->name('add');
-        Route::post('/delete/{id}', 'restaurantController@delete')
+//        DANGER поменять роут на post
+        Route::get('/delete/{id}', 'restaurantController@delete')
             ->name('delete');
         Route::get('/search/{words}', 'restaurantController@search')
             ->name('search');

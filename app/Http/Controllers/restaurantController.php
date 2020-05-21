@@ -10,24 +10,28 @@ class restaurantController extends Controller
 {
     function search($words)
     {
-        //TODO write this
+        $restaurants = restaurant::where('r_name', 'LIKE', '%' . $words . '%')->get();
+        return $restaurants->toJson();
     }
 
     function add(Request $request)
     {
-       $this->validate($request, restaurant::rules,[]);
-       $model = new restaurant();
-       $model->fill($request->all());
-       $model->save();
-       //DANGER Что будет возвращать данный роут view или еще что?
-       return redirect()->route('anyroute')->with('isDone', 'done');
+        $this->validate($request, restaurant::rules, []);
+        $model = new restaurant();
+        $model->fill($request->all());
+        $model->save();
+        //DANGER Что будет возвращать данный роут view или еще что?
+        return redirect()->route('anyroute')->with('isDone', 'done');
     }
 
-    function delete($id)
+    function delete($r_id)
     {
-//        $userAuthId = Auth::id();
-        $restaurant = restaurant::find($id);
-//        $restaurant =
-
+        $restaurant = restaurant::where('r_id', $r_id)->first();
+        if ($restaurant['r_restHolderId'] = Auth::id()) {
+            //DANGER что возвращаем на фронт
+            return 'done';
+        }
+        //DANGER что возвращаем на фронт
+        return 'nodone';
     }
 }

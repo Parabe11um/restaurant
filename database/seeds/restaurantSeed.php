@@ -21,6 +21,7 @@ class restaurantSeed extends Seeder
         for ($i=0; $i <  10; $i++) {
             $data[] = [
                 'r_inn' => rand(00000001,99999999),
+                'r_restHolderId' => rand(1,5),
                 'r_phone' => rand(0000000001,9999999999),
                 'r_name' => $facker->company,
                 'r_description' => $facker->realText(rand(100,450)),
