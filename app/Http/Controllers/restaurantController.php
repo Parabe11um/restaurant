@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Model\restaurant;
 
 class restaurantController extends Controller
 {
@@ -14,15 +15,17 @@ class restaurantController extends Controller
 
     function add(Request $request)
     {
-        //TODO write this
+       $this->validate($request, restaurant::rules,[]);
+       $model = new restaurant();
+       $model->fill($request->all());
+       $model->save();
+       //DANGER Что будет возвращать данный роут view или еще что?
+       return redirect()->route('anyroute')->with('isDone', 'done');
     }
 
     function delete($id)
     {
-// получить текущего залогиненного юзера
-//        $user = Auth::user();
-// получить id текущего залогиненного юзера
-//        $id = Auth::id();
-        //TODO write this with check user id = user id
+
+
     }
 }
