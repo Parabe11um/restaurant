@@ -27,13 +27,16 @@ Route::group([
     'as' => 'rest::'
 ],
     function () {
-        Route::post('/add', 'restaurantController@add')
+        Route::get('/list', 'restaurantController@search')
+            ->name('list');
+        Route::get('/view', 'restaurantController@view')
+            ->name('view');
+        //DANGER поменять роут на post
+        Route::get('/add', 'restaurantController@add')
             ->name('add');
-//        DANGER поменять роут на post
+        //DANGER поменять роут на post
         Route::get('/delete/{id}', 'restaurantController@delete')
             ->name('delete');
-        Route::get('/search/{words}', 'restaurantController@search')
-            ->name('search');
     }
 );
 

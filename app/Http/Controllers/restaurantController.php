@@ -5,12 +5,19 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Model\restaurant;
+use PHPUnit\Util\Json;
+
 
 class restaurantController extends Controller
 {
-    function search($words)
+    function search(Request $request)
     {
-        $restaurants = restaurant::where('r_name', 'LIKE', '%' . $words . '%')->get();
+        $name = $request->get('name');
+        if ($name) {
+            $restaurants = restaurant::where('r_name', 'LIKE', '%' . $name . '%')->get();
+            return $restaurants->toJson();
+        }
+        $restaurants = restaurant::all();
         return $restaurants->toJson();
     }
 
@@ -20,18 +27,32 @@ class restaurantController extends Controller
         $model = new restaurant();
         $model->fill($request->all());
         $model->save();
-        //DANGER Что будет возвращать данный роут view или еще что?
-        return redirect()->route('anyroute')->with('isDone', 'done');
+        //DANGER Что будет возвращать VIEW или JSON?
+        return Json::prettify('{"isSave" : "save"}');
+        //return redirect()->route('anyroute')->with('isSave', 'save');
     }
 
     function delete($r_id)
     {
         $restaurant = restaurant::where('r_id', $r_id)->first();
         if ($restaurant['r_restHolderId'] = Auth::id()) {
-            //DANGER что возвращаем на фронт
-            return 'done';
+            restaurant::destroy($r_id);
+            return Json::prettify('{"isDelete" : "delete"}');
         }
-        //DANGER что возвращаем на фронт
-        return 'nodone';
+        return Json::prettify('{"isDelete" : "not delete"}');
+    }
+
+    function view(Request $request)
+    {
+        $r_id = $request->get('r_id');
+        $restaurant = restaurant::where('r_id', $r_id)->get();
+        echo $restaurant->toJson();
+        if ($restaurant == "[]"){
+            return Json::prettify('{"Error" : "Что то пошло не так"}');
+        }
+        //DANGER Что будет возвращать VIEW или JSON?
+        return $restaurant;
+        //return redirect()->route('anyroute')->with('isSave', 'save');
+
     }
 }
