@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Header from "../Header/Header";
 import './Main.css';
 import {Link, NavLink} from "react-router-dom";
 
@@ -9,7 +8,6 @@ class Main extends Component {
 
             <>
                 <div className="main">
-                    <Header />
                     <div className="container">
                         <div className="main-page">
                             <h1>Найти и забронировать столик ?

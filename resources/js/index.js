@@ -6,11 +6,14 @@ import About from "./components/About/About";
 import FindRest from "./components/FindRest/FindRest";
 import Contacts from "./components/Contacts/Contacts";
 import Main from "./components/Main/Main";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 if(document.getElementById('root')){
     ReactDOM.render(
 
         <BrowserRouter>
+            <Header />
             <Switch>
                 <Route path='/about' component={About} />
                 <Route path='/restaurants' component={FindRest} />
@@ -19,6 +22,7 @@ if(document.getElementById('root')){
                 <Redirect to='/' />
                 <App />
             </Switch>
+            <Footer />
         </BrowserRouter>
 
         ,document.getElementById('root'));

@@ -22,9 +22,9 @@ class Header extends Component {
                             <NavLink to="/contacts" className="menu-links" activeClassName="selected">
                                 Контакты
                             </NavLink>
-                            <Link href="/public/login" className="button-link" >
+                            <a href="/login" className="button-link" >
                                 Войти как владелец
-                            </Link>
+                            </a>
                         </nav>
                     </div>
                 </div>

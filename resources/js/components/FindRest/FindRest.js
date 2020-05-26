@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 import {FindRestItem} from "./FindRestItem/FindRestItem"
 import './FindRest.css'
 
@@ -9,11 +7,11 @@ import './FindRest.css'
  *
  * @param bigText заглушка текста
  * @param {Array} restaurantData Массив ресторанов
- * @param {function} restaurantElements Отрисовка ресторанов 
+ * @param {function} restaurantElements Отрисовка ресторанов
  */
 
-let bigText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+let bigText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 ullamco laboris nisi ut aliquip ex ea commodo consequat.`
 
 class FindRest extends Component {
@@ -26,9 +24,7 @@ class FindRest extends Component {
 
         return (
             <>
-                <Header />
-
-                <div className="FindRest">
+                 <div className="FindRest">
                     <div className="FindRest__container">
                         <div className="FindRest__titleWrap">
                             <h2 className="FindRest__title">Найдите свой ресторан</h2>
@@ -43,7 +39,6 @@ class FindRest extends Component {
                         <button className="button-linkAlt">Показать еще</button>
                     </div>
                 </div>
-                <Footer />
             </>
         );
     }
