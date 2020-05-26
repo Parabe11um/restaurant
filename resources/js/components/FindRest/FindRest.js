@@ -27,6 +27,7 @@ class FindRest extends Component {
         return (
             <>
                 <Header />
+
                 <div className="FindRest">
                     <div className="FindRest__container">
                         <div className="FindRest__titleWrap">
