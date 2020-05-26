@@ -21,7 +21,6 @@ Route::get('/', function () {
 |--------------------------------------------------------------------------
 | Start restaurant routes
 */
-
 Route::group([
     'prefix' => '/rest',
     'as' => 'rest::'
@@ -39,7 +38,6 @@ Route::group([
             ->name('delete');
     }
 );
-
 /*
 | Start restaurant routes
 |--------------------------------------------------------------------------
