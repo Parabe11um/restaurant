@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import {RestDetail} from "../RestDetail/RestDetail";
 
 class FindRest extends Component {
     render() {
@@ -8,7 +9,7 @@ class FindRest extends Component {
             <>
                 <Header />
                 <div>
-                    this is our restaraunts!
+                    <RestDetail />
                 </div>
                 <Footer />
             </>
