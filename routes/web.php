@@ -30,11 +30,9 @@ Route::group([
             ->name('list');
         Route::get('/view', 'restaurantController@view')
             ->name('view');
-        //DANGER поменять роут на post
-        Route::get('/add', 'restaurantController@add')
+        Route::post('/add', 'restaurantController@add')
             ->name('add');
-        //DANGER поменять роут на post
-        Route::get('/delete/{id}', 'restaurantController@delete')
+        Route::post('/delete/{id}', 'restaurantController@delete')
             ->name('delete');
     }
 );

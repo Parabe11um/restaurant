@@ -27,9 +27,7 @@ class restaurantController extends Controller
         $model = new restaurant();
         $model->fill($request->all());
         $model->save();
-        //DANGER Что будет возвращать VIEW или JSON?
         return Json::prettify('{"isSave" : "save"}');
-        //return redirect()->route('anyroute')->with('isSave', 'save');
     }
 
     function delete($r_id)
@@ -46,13 +44,11 @@ class restaurantController extends Controller
     {
         $r_id = $request->get('r_id');
         $restaurant = restaurant::where('r_id', $r_id)->get();
-        echo $restaurant->toJson();
+        $restaurant->toJson();
         if ($restaurant == "[]"){
             return Json::prettify('{"Error" : "Что то пошло не так"}');
         }
-        //DANGER Что будет возвращать VIEW или JSON?
         return $restaurant;
-        //return redirect()->route('anyroute')->with('isSave', 'save');
 
     }
 }
