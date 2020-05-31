@@ -5,9 +5,6 @@ class Contacts extends Component {
         return (
             <>
                 <div className="container">
-
-                </div>
-                <div>
                     This is our contacts!
                 </div>
             </>

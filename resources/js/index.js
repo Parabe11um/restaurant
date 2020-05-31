@@ -19,7 +19,7 @@ if(document.getElementById('root')){
                 <Route path='/restaurants' component={FindRest} />
                 <Route path='/contacts' component={Contacts} />
                 <Route path='/' component={Main} />
-                <Redirect to='/' />
+                <Redirect to='/' exact />
                 <App />
             </Switch>
             <Footer />
