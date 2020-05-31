@@ -44,8 +44,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/admin',function(){
-    return view('admin');
-})->name('admin.post')->middleware('can:edit-posts');
 
+    
 Route::resource('UseRofil', 'UseAdminController');
