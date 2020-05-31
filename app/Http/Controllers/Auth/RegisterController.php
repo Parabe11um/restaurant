@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\RegisterRequest;
-//use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Auth\Events\Registered;
 use App\Models\Role;
@@ -76,11 +76,13 @@ class RegisterController extends Controller
     {
         try
         {
-            
+              
+   
         $user=User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'password' => bcrypt($data['password']),
+            'password' => bcrypt($data['password'])
+
         ]);
         $role=Role::where('slug','author')->first();
         $user->roles()->attach($role);
