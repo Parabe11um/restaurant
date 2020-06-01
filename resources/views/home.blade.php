@@ -9,19 +9,14 @@
                         <div class="container">
                             <div class="menu-block">
                                 <nav class="Menu">
-                                    <a aria-current="page" class="menu-links selected" href="/">Главная</a>
-{{--                                    <a class="menu-links" href="/about">О нас</a>--}}
-{{--                                    <a class="menu-links" href="/restaurants">Рестораны</a>--}}
-{{--                                    <a class="menu-links" href="/contacts">Контакты</a>--}}
-                                    <a href="/login" class="button-link">Войти как владелец</a>
+                                    <a aria-current="page" class="menu-links selected" href="/">На главную</a>
                                     @if (Auth::user()->hasRole('author'))
                                         <!-- при создании пользевателя поминять значения author на editor-->
                                     @endif
-
                                     @if(Auth::user()->name)
-                                        <a class="button-link" href="{{route('admin.post')}}">Редактировать профиль</a>
-                                        <a href="#" class="button-link">{{ Auth::user()->name }}</a>
-                                     @endif
+                                        <a class="button-link" href="{{route('UseRofil.create')}}">Редактировать профиль</a>
+                                        <span class="user-name">{{ Auth::user()->name }}</span>
+                                    @endif
                                 </nav>
                             </div>
                         </div>
@@ -34,8 +29,9 @@
                     @endif
                     <div class="container">
                         <div class="welcome">
-                            Вы авторизовались, как {{ Auth::user()->name }}
+                            <div class="welcome-text">Вы авторизовались, как {{ Auth::user()->name }}</div>
                         </div>
+
                     </div>
                 </div>
             </div>
