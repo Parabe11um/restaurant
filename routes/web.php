@@ -14,31 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-
-/*
-|--------------------------------------------------------------------------
-| Start restaurant routes
-*/
-Route::group([
-    'prefix' => '/rest',
-    'as' => 'rest::'
-],
-    function () {
-        Route::get('/list', 'restaurantController@search')
-            ->name('list');
-        Route::get('/view', 'restaurantController@view')
-            ->name('view');
-        Route::post('/add', 'restaurantController@add')
-            ->name('add');
-        Route::post('/delete/{id}', 'restaurantController@delete')
-            ->name('delete');
-    }
-);
-/*
-| Start restaurant routes
-|--------------------------------------------------------------------------
-*/
+Route::get('/test', 'test@index')
+    ->name('test');
 
 Auth::routes();
 
