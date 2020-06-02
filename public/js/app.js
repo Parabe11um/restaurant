@@ -6435,7 +6435,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".FindRestItem__wrap {\r\n    display: flex;\r\n    border: 1px solid #9B9999;\r\n    overflow: hidden;\r\n    border-radius: 10px;\r\n    padding: 20px 15px;\r\n}\r\n.FindRestItem__wrap_margin {\r\n    margin-bottom: 40px;\r\n}\r\n.FindRestItem__wrap_margin:last-child {\r\n    margin-bottom: 75px;\r\n}\r\n.FindRestItem__imageWrap {\r\n    width: 300px; \r\n    height: 200px;\r\n    background-color: #ccc;\r\n}\r\n.FindRestItem__info {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    max-width: 70%;\r\n    padding-left: 20px;\r\n}\r\n.info__title {\r\n    margin: 10px auto -5px 0px;\r\n    text-transform: uppercase;\r\n    padding-bottom: 15px;\r\n}\r\n.info__text {\r\n    text-align: left;\r\n    color: #A39E9E;\r\n    padding-bottom: 15px;\r\n}\r\n\r\n\r\n", ""]);
+exports.push([module.i, ".FindRestItem__wrap {\n    display: flex;\n    border: 1px solid #9B9999;\n    overflow: hidden;\n    border-radius: 10px;\n    padding: 20px 15px;\n}\n.FindRestItem__wrap_margin {\n    margin-bottom: 40px;\n}\n.FindRestItem__wrap_margin:last-child {\n    margin-bottom: 75px;\n}\n.FindRestItem__imageWrap {\n    width: 300px; \n    height: 200px;\n    background-color: #ccc;\n}\n.FindRestItem__info {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-between;\n    max-width: 70%;\n    padding-left: 20px;\n}\n.info__title {\n    margin: 10px auto -5px 0px;\n    text-transform: uppercase;\n    padding-bottom: 15px;\n}\n.info__text {\n    text-align: left;\n    color: #A39E9E;\n    padding-bottom: 15px;\n}\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Footer/Footer.css":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Footer/Footer.css ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".footer {\n    display: flex;\n    min-height: 100px;\n    width: 100%;\n    background-color: #2D2D2D;\n    box-sizing: border-box;\n    padding: 25px;\n}\n.footer-title {\n    margin: 15px auto;\n    color: antiquewhite;\n}\n", ""]);
 
 // exports
 
@@ -6474,6 +6493,63 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 // module
 exports.push([module.i, ".html, body, div, p {\n    margin: 0;\n    font-family: 'Roboto', sans-serif;\n}\n\n.container {\n    width: 1170px;\n    margin: 0 auto;\n}\n\n.main{\n    height: 100vh;\n    background-image: url(\"/images/mainBg.png\");\n    background-size: cover;\n    background-repeat: no-repeat;\n}\n\n.main-page{\n    height: 80vh;\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    align-content: center;\n}\n\n.main .menu-links {\n    color: #fff;\n}\n\nh1{\n    color: #fff;\n    max-width: 50%;\n    font-size: 34px;\n    font-weight: normal;\n    text-align: center;\n    align-self: center;\n    padding-bottom: 40px;\n    border-bottom: 1px solid #fff;\n    margin-bottom: 55px;\n}\n\n.button-link{\n    background: #E7475E;\n    border-radius: 50px;\n    text-decoration: none;\n    text-transform: uppercase;\n    padding: 10px 15px;\n    text-align: center;\n    align-self: center;\n    color: #fff;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/RestDetail/RestDetail.css":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/RestDetail/RestDetail.css ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".RestDetail-container {\n    width: 80%;\n    padding: 15px;\n    border: 1px solid;\n    margin: 25px auto;\n    border: 1px solid #9B9999;\n    box-sizing: border-box;\n    border-radius: 10px;\n}\n\n.RestDetail-description {\n    padding-top: 40px;\n}\n\n.RestDetail-info div {\n    display: flex;\n    flex-wrap: wrap;\n}\n\n.RestDetail-info div span {\n    width: 50%;\n    margin: 10px 0;\n    font-family: Roboto;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 15px;\n    line-height: 18px;\n}\n\n.RestDetail-container_title  {\n    padding: 0 20px;\n    font-family: Roboto;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 14px;\n    line-height: 16px;\n    align-items: center;\n    text-align: center;\n    color: #000;\n}\n\n.RestDetail-description-text {\n    font-family: Roboto;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 14px;\n    line-height: 16px;\n    display: flex;\n    align-items: center;\n    color: #A39E9E;\n}\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/RestDetailForm/RestDetailForm.css":
+/*!***************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/RestDetailForm/RestDetailForm.css ***!
+  \***************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".RestDetailForm-form {\n    width: 80%;\n    margin: 25px auto;\n}\n\n.RestDetailForm-container {\n    padding: 40px 15px 15px;\n    border: 1px solid;\n    border: 1px solid #9B9999;\n    box-sizing: border-box;\n    border-radius: 10px;\n\n}\n\n.RestDetailForm-title {\n    padding: 0 20px;\n    font-family: Roboto;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 14px;\n    line-height: 16px;\n    align-items: center;\n    text-align: center;\n    color: #000;\n}\n\n.form-container {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    width: 90%;\n    margin: 0 auto;\n}\n\n.form-container input {\n    padding: 5px 10px;\n    margin: 10px;\n    width: 30%;\n    height: 30px;\n    border: 1px solid #9B9999;\n    box-sizing: border-box;\n    border-radius: 50px;\n}\n\n.form-container input::-webkit-input-placeholder, .form-container textarea::-webkit-input-placeholder {\n    text-transform: uppercase;\n}\n\n.form-container input::-moz-placeholder, .form-container textarea::-moz-placeholder {\n    text-transform: uppercase;\n}\n\n.form-container input:-ms-input-placeholder, .form-container textarea:-ms-input-placeholder {\n    text-transform: uppercase;\n}\n\n.form-container input::-ms-input-placeholder, .form-container textarea::-ms-input-placeholder {\n    text-transform: uppercase;\n}\n\n.form-container input::placeholder,\n.form-container textarea::placeholder {\n    text-transform: uppercase;\n}\n\n.form-container textarea {\n    outline: none;\n    margin: 20px 0;\n    resize: none;\n    width: 100%;\n    min-height: 200px;\n    padding: 15px;\n    border: 1px solid #9B9999;\n    box-sizing: border-box;\n    border-radius: 50px;\n}\n\n.form-container textarea:focus {\n    outline: none;\n}\n\n.form-container .button-link-btn {\n    margin: 0 auto;\n    border: none;\n}\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/RestDetailHeader/RestDetailHeader.css":
+/*!*******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/RestDetailHeader/RestDetailHeader.css ***!
+  \*******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".RestDetailHeader {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    min-height: 327px;\n    background-color: #A39E9E;\n}\n\n.RestDetailHeader-title {\n    margin: 100px auto 10px;\n    font-family: Roboto;\n    font-style: normal;\n    font-weight: 300;\n    font-size: 24px;\n    line-height: 28px;\n    display: flex;\n    align-items: center;\n    text-align: center;\n    color: #FFFFFF;\n}\n\n.RestDetailHeader-description {\n    width: 50%;\n    margin: 0 auto;\n    font-family: Roboto;\n    text-align: center;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 14px;\n    line-height: 16px;\n    display: flex;\n    align-items: center;\n    color: #FFFFFF;\n}\n\n.RestDetailHeader .button-link-btn {\n    margin: 50px auto;\n    border: none;\n}\n\n", ""]);
 
 // exports
 
@@ -70867,6 +70943,36 @@ var FindRestItem = function FindRestItem(props) {
 
 /***/ }),
 
+/***/ "./resources/js/components/Footer/Footer.css":
+/*!***************************************************!*\
+  !*** ./resources/js/components/Footer/Footer.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./Footer.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Footer/Footer.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/components/Footer/Footer.js":
 /*!**************************************************!*\
   !*** ./resources/js/components/Footer/Footer.js ***!
@@ -70878,6 +70984,8 @@ var FindRestItem = function FindRestItem(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.css */ "./resources/js/components/Footer/Footer.css");
+/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -70902,6 +71010,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+
 var Footer = /*#__PURE__*/function (_Component) {
   _inherits(Footer, _Component);
 
@@ -70917,8 +71026,10 @@ var Footer = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
-      }, "\u042D\u0442\u043E \u0444\u0443\u0442\u0435\u0440");
+        className: "footer"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "footer-title"
+      }, "Footer"));
     }
   }]);
 
@@ -71156,6 +71267,338 @@ var Main = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
+/***/ "./resources/js/components/RestDetail/RestDetail.css":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/RestDetail/RestDetail.css ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./RestDetail.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/RestDetail/RestDetail.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/RestDetail/RestDetail.js":
+/*!**********************************************************!*\
+  !*** ./resources/js/components/RestDetail/RestDetail.js ***!
+  \**********************************************************/
+/*! exports provided: RestDetail */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RestDetail", function() { return RestDetail; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _RestDetailHeader_RestDetailHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../RestDetailHeader/RestDetailHeader */ "./resources/js/components/RestDetailHeader/RestDetailHeader.js");
+/* harmony import */ var _RestDetailForm_RestDetailForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../RestDetailForm/RestDetailForm */ "./resources/js/components/RestDetailForm/RestDetailForm.js");
+/* harmony import */ var _RestDetail_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./RestDetail.css */ "./resources/js/components/RestDetail/RestDetail.css");
+/* harmony import */ var _RestDetail_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_RestDetail_css__WEBPACK_IMPORTED_MODULE_3__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+var RestDetail = /*#__PURE__*/function (_Component) {
+  _inherits(RestDetail, _Component);
+
+  var _super = _createSuper(RestDetail);
+
+  function RestDetail() {
+    _classCallCheck(this, RestDetail);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(RestDetail, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RestDetailHeader_RestDetailHeader__WEBPACK_IMPORTED_MODULE_1__["RestDetailHeader"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("fieldset", {
+        className: "RestDetail-container RestDetail-description"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("legend", {
+        className: "RestDetail-container_title RestDetail-description__title"
+      }, "\u041E\u041F\u0418\u0421\u0410\u041D\u0418\u0415 \u0420\u0415\u0421\u0422\u041E\u0420\u0410\u041D\u0410"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "RestDetail-description-text"
+      }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("fieldset", {
+        className: "RestDetail-container RestDetail-info"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("legend", {
+        className: "RestDetail-container_title RestDetail-info__title"
+      }, "\u041A\u041E\u041D\u0422\u0410\u041A\u0422\u041D\u042B\u0415 \u0414\u0410\u041D\u041D\u042B\u0415"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u0442\u043E\u043B\u043E\u0432: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043C\u0435\u0441\u0442: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0420\u0430\u0437\u043C\u0435\u0440: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0410\u0434\u0440\u0435\u0441: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0422\u0435\u043B\u0435\u0444\u043E\u043D: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0421\u0430\u0439\u0442: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Email: "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RestDetailForm_RestDetailForm__WEBPACK_IMPORTED_MODULE_2__["RestDetailForm"], null));
+    }
+  }]);
+
+  return RestDetail;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/***/ }),
+
+/***/ "./resources/js/components/RestDetailForm/RestDetailForm.css":
+/*!*******************************************************************!*\
+  !*** ./resources/js/components/RestDetailForm/RestDetailForm.css ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./RestDetailForm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/RestDetailForm/RestDetailForm.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/RestDetailForm/RestDetailForm.js":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/RestDetailForm/RestDetailForm.js ***!
+  \******************************************************************/
+/*! exports provided: RestDetailForm */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RestDetailForm", function() { return RestDetailForm; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _RestDetailForm_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./RestDetailForm.css */ "./resources/js/components/RestDetailForm/RestDetailForm.css");
+/* harmony import */ var _RestDetailForm_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_RestDetailForm_css__WEBPACK_IMPORTED_MODULE_1__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+var RestDetailForm = /*#__PURE__*/function (_Component) {
+  _inherits(RestDetailForm, _Component);
+
+  var _super = _createSuper(RestDetailForm);
+
+  function RestDetailForm() {
+    _classCallCheck(this, RestDetailForm);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(RestDetailForm, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        className: "RestDetailForm-form"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("fieldset", {
+        className: "RestDetailForm-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("legend", {
+        className: "RestDetailForm-title"
+      }, "\u0417\u0410\u0411\u0420\u041E\u041D\u0418\u0420\u041E\u0412\u0410\u0422\u042C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        name: "name",
+        placeholder: "name"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        name: "phone",
+        placeholder: "phone"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        name: "email",
+        placeholder: "email"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        name: "date",
+        placeholder: "date"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        name: "period",
+        placeholder: "period"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        name: "category",
+        placeholder: "category"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+        name: "message",
+        id: "message"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "button-link button-link-btn"
+      }, "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C"))));
+    }
+  }]);
+
+  return RestDetailForm;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/***/ }),
+
+/***/ "./resources/js/components/RestDetailHeader/RestDetailHeader.css":
+/*!***********************************************************************!*\
+  !*** ./resources/js/components/RestDetailHeader/RestDetailHeader.css ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./RestDetailHeader.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/RestDetailHeader/RestDetailHeader.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./resources/js/components/RestDetailHeader/RestDetailHeader.js":
+/*!**********************************************************************!*\
+  !*** ./resources/js/components/RestDetailHeader/RestDetailHeader.js ***!
+  \**********************************************************************/
+/*! exports provided: RestDetailHeader */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RestDetailHeader", function() { return RestDetailHeader; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _RestDetailHeader_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./RestDetailHeader.css */ "./resources/js/components/RestDetailHeader/RestDetailHeader.css");
+/* harmony import */ var _RestDetailHeader_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_RestDetailHeader_css__WEBPACK_IMPORTED_MODULE_1__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+var RestDetailHeader = /*#__PURE__*/function (_Component) {
+  _inherits(RestDetailHeader, _Component);
+
+  var _super = _createSuper(RestDetailHeader);
+
+  function RestDetailHeader() {
+    _classCallCheck(this, RestDetailHeader);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(RestDetailHeader, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "RestDetailHeader"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+        className: "RestDetailHeader-title"
+      }, "\u0420\u0415\u0421\u0422\u041E\u0420\u0410\u041D \u041D\u0415\u0418\u0417\u0412\u0415\u0421\u0422\u041D\u042B\u0419"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "RestDetailHeader-description"
+      }, "Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "button-link button-link-btn"
+      }, "\u0417\u0430\u0431\u0440\u043E\u043D\u0438\u0440\u043E\u0432\u0430\u0442\u044C"));
+    }
+  }]);
+
+  return RestDetailHeader;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/***/ }),
+
 /***/ "./resources/js/index.js":
 /*!*******************************!*\
   !*** ./resources/js/index.js ***!
@@ -71177,6 +71620,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Main_Main__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/Main/Main */ "./resources/js/components/Main/Main.js");
 /* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/Header/Header */ "./resources/js/components/Header/Header.js");
 /* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Footer/Footer */ "./resources/js/components/Footer/Footer.js");
+/* harmony import */ var _components_RestDetail_RestDetail__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/RestDetail/RestDetail */ "./resources/js/components/RestDetail/RestDetail.js");
+
 
 
 
@@ -71227,8 +71672,8 @@ if (document.getElementById('root')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\OpenServer\OSPanel\domains\restaurant\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\OpenServer\OSPanel\domains\restaurant\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/seryozhapuff/PhpstormProjects/restaurant/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/seryozhapuff/PhpstormProjects/restaurant/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
