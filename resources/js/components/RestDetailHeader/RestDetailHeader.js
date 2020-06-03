@@ -1,17 +1,17 @@
 import React, {Component} from 'react';
-import {NavLink} from "react-router-dom";
+import './RestDetailHeader.css';
 
 export class RestDetailHeader extends Component {
     render() {
-        return <div>
-            <h3>РЕСТОРАН НЕИЗВЕСТНЫЙ</h3>
-            <span>Lorem ipsum dolor sit amet,consectetur adipiscing elit,
+        return <div className='RestDetailHeader'>
+            <h3 className='RestDetailHeader-title'>РЕСТОРАН НЕИЗВЕСТНЫЙ</h3>
+            <span className='RestDetailHeader-description'>Lorem ipsum dolor sit amet,consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.</span>
-            <NavLink to="/" className="button-link">
+            <button className="button-link button-link-btn">
                 Забронировать
-            </NavLink>
+            </button>
         </div>
     }
 }
