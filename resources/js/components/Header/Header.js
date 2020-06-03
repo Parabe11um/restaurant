@@ -10,7 +10,7 @@ class Header extends Component {
                 <div className="container">
                     <div className="menu-block">
                         <nav className="Menu">
-                            <NavLink to="/" className="menu-links" activeClassName="selected">
+                            <NavLink to="/" exact className="menu-links" activeClassName="selected">
                                 Главная
                             </NavLink>
                             <NavLink to="/about" className="menu-links" activeClassName="selected">
@@ -22,7 +22,7 @@ class Header extends Component {
                             <NavLink to="/contacts" className="menu-links" activeClassName="selected">
                                 Контакты
                             </NavLink>
-                            <a href="/public/login" className="button-link" >
+                            <a href="/login" className="button-link" >
                                 Войти как владелец
                             </a>
                         </nav>

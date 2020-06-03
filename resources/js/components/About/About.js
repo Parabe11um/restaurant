@@ -1,16 +1,12 @@
 import React, {Component} from 'react';
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 
 class About extends Component {
     render() {
         return (
             <>
-                <Header />
-                <div>
+                <div className="container">
                     this is about us!
                 </div>
-                <Footer />
             </>
         );
     }

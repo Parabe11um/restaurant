@@ -10,7 +10,7 @@
 
 .main{
     height: 100vh;
-    background: url("/public/images/mainBg.png");
+    background-image: url("/images/mainBg.png");
     background-size: cover;
     background-repeat: no-repeat;
 }

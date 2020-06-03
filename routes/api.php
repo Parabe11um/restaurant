@@ -17,3 +17,26 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+/*
+|--------------------------------------------------------------------------
+| Start restaurant routes
+*/
+Route::group([
+    'prefix' => '/rest',
+    'as' => 'rest::'
+],
+    function () {
+        Route::get('/list', 'restaurantController@search')
+            ->name('list');
+        Route::get('/view', 'restaurantController@view')
+            ->name('view');
+        Route::post('/add', 'restaurantController@add')
+            ->name('add');
+        Route::post('/delete/{id}', 'restaurantController@delete')
+            ->name('delete');
+    }
+);
+/*
+| Start restaurant routes
+|--------------------------------------------------------------------------
+*/
