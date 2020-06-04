@@ -14,8 +14,7 @@
                                         <!-- при создании пользевателя поминять значения author на editor-->
                                     @endif
                                     @if(Auth::user()->name)
-                                        <a class="button-link" href="{{route('UseAdmin.edit')}}">Редактировать профиль</a>
-                                        <span class="user-name">{{ Auth::user()->name }}</span>
+                                        <a class="button-link" href="#">Редактировать профиль</a>                                        <span class="user-name">{{ Auth::user()->name }}</span>
                                     @endif
                                 </nav>
                             </div>
