@@ -48,4 +48,4 @@ Route::get('/admin',function(){
     return view('admin');
 })->name('admin.post')->middleware('can:edit-posts');
 
-Route::resource('UsePRofil','UseAdminController');
+/*Route::resource('UsePRofil','UseAdminController');*/
