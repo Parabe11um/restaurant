@@ -14,7 +14,10 @@
 .FindRestItem__imageWrap {
     width: 300px; 
     height: 200px;
-    background-color: #ccc;
+}
+.FindRestItem__image {
+    width: 300px; 
+    height: 200px;
 }
 .FindRestItem__info {
     display: flex;
