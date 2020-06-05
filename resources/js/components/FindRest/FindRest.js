@@ -2,25 +2,71 @@ import React, {Component} from 'react';
 import {FindRestItem} from "./FindRestItem/FindRestItem"
 import './FindRest.css'
 
-/**
- * Страница поиска ресторанов
- *
- * @param bigText заглушка текста
- * @param {Array} restaurantData Массив ресторанов
- * @param {function} restaurantElements Отрисовка ресторанов
- */
-
-let bigText = `Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-ullamco laboris nisi ut aliquip ex ea commodo consequat.`
-
 class FindRest extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {value: '', restaurantData: [], limit:''}
+    
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.getLimit = this.getLimit.bind(this);
+        this.loadMore = this.loadMore.bind(this);
+    }
+
+    componentDidMount() {
+        this.getLimit()
+
+        fetch('/api/rest/list')
+        .then(res => res.json())
+        .then ((result) => {
+            this.setState({
+                restaurantData: result
+            })
+        },
+            (error) => {
+                console.log(error)
+            }
+        )
+    }
+
+    handleChange(event) {
+        this.setState({value: event.target.value});
+    }
+    
+    handleSubmit(event) {
+        fetch(`/api/rest/list?name=${this.state.value}`)
+        .then(res => res.json())
+        .then ((result) => {
+            this.setState({
+                restaurantData: result
+            })
+        },
+            (error) => {
+                console.log(error)
+            }
+        )
+        event.preventDefault();
+        this.getLimit()
+    }
+
+    getLimit() {
+        this.setState({
+            limit: 3
+        })
+    }
+
+    loadMore() {
+        this.setState({
+            limit: this.state.limit + 3
+        });
+    }
+
     render() {
-        const restaurantData = [
-            {id: 1, img:'', title:'Ресторан неизвестный', text: bigText},
-            {id: 2, img:'', title:'Ресторан неизвестный', text: bigText},
-        ]
-        let restaurantElements = restaurantData.map((rest, key) => <FindRestItem img={rest.img} title={rest.title} text={rest.text} key={key} />)
+        const restaurantData = this.state.restaurantData
+        let restaurantElements = restaurantData.slice(0, this.state.limit).map((rest, key) => (
+            <FindRestItem {...rest} key={key} />
+            )
+        )
 
         return (
             <>
@@ -30,13 +76,15 @@ class FindRest extends Component {
                             <h2 className="FindRest__title">Найдите свой ресторан</h2>
                         </div>
                         <div className="FindRest__searchForm FindRest__searchForm_margin">
-                            <input className="FindRest__input" placeholder="Найти ресторан"/>
-                            <button className="button-linkAlt">Поиск</button>
+                            <form onSubmit={this.handleSubmit}>
+                                <input className="FindRest__input" value={this.state.value} onChange={this.handleChange} placeholder="Найти ресторан"/>
+                                <button className="button-linkAlt" type="submit">Поиск</button>
+                            </form>
                         </div>
                         <div>
                             {restaurantElements}
                         </div>
-                        <button className="button-linkAlt">Показать еще</button>
+                        <button className="button-linkAlt" onClick={this.loadMore}>Показать еще</button>
                     </div>
                 </div>
             </>
