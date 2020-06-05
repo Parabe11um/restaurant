@@ -4,7 +4,6 @@
            <div class="row">
            <div class="col-md-offset-4 col-md-4">
              <form method="POST" action="{{route('UsePRofil.update',[Auth::user()->id])}}">
-
              {{csrf_field()}}
              {{method_field('put')}}
 
@@ -36,4 +35,6 @@
                 </div>
                 </div>
                 </div>
+
              @endsection
+
