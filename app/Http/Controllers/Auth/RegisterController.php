@@ -10,6 +10,7 @@ use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Auth\Events\Registered;
 use App\Models\Role;
 use App\User;
+
 class RegisterController extends Controller
 {
     /*
@@ -80,8 +81,10 @@ class RegisterController extends Controller
    
         $user=User::create([
             'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password'])
+            'family' => $data['family'],
+            'email' => $data['email'],   
+            'password' => bcrypt($data['password']),
+             'phone' => $data['phone']
 
         ]);
         $role=Role::where('slug','author')->first();
