@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+//нужко оставить так, чтоб работвл нормвльно реакт роутинг
+Route::view('/{path?}', 'welcome');
 
 
 /*
