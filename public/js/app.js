@@ -6416,7 +6416,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".FindRest__container {\r\n    max-width: 1170px;\r\n    margin: 0 auto;\r\n    text-align: center;\r\n    padding: 20px 0;\r\n}\r\n.FindRest__titleWrap {\r\n    margin-bottom: 35px;\r\n}\r\n.FindRest__title {\r\n    font-weight: 300;\r\n}\r\n.FindRest__searchForm {\r\n    border: 1px solid #9B9999;\r\n    box-sizing: border-box;\r\n    border-radius: 50px;\r\n    max-width: 600px;\r\n    margin: 0 auto;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    padding: 5px 8px;\r\n}\r\n.FindRest__searchForm_margin {\r\n    margin-bottom: 75px;\r\n}\r\n.FindRest__input {\r\n    border: none;\r\n    padding-left: 35px;\r\n    width: 100%;\r\n}\r\n.FindRest__input:focus {\r\n    outline: none\r\n}\r\n.FindRest__input::-webkit-input-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n.FindRest__input::-moz-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n.FindRest__input:-ms-input-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n.FindRest__input::-ms-input-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n.FindRest__input::placeholder {\r\n    text-transform: uppercase;\r\n}\r\n.button-linkAlt {\r\n    background: #FFFFFF;\r\n    border: 1px solid #E7475E;\r\n    box-sizing: border-box;\r\n    border-radius: 50px;\r\n    color: #E7475E;\r\n    text-transform: uppercase;\r\n    padding: 10px 15px;\r\n    cursor: pointer;\r\n}\r\n", ""]);
+exports.push([module.i, ".FindRest__container {\n    max-width: 1170px;\n    margin: 0 auto;\n    text-align: center;\n    padding: 20px 0;\n}\n.FindRest__titleWrap {\n    margin-bottom: 35px;\n}\n.FindRest__title {\n    font-weight: 300;\n}\n.FindRest__searchForm {\n    border: 1px solid #9B9999;\n    box-sizing: border-box;\n    border-radius: 50px;\n    max-width: 600px;\n    margin: 0 auto;\n    display: flex;\n    justify-content: space-between;\n    padding: 5px 8px;\n}\n.FindRest__searchForm_margin {\n    margin-bottom: 75px;\n}\n.FindRest__input {\n    border: none;\n    padding-left: 35px;\n    width: 100%;\n}\n.FindRest__input:focus {\n    outline: none\n}\n.FindRest__input::-webkit-input-placeholder {\n    text-transform: uppercase;\n}\n.FindRest__input::-moz-placeholder {\n    text-transform: uppercase;\n}\n.FindRest__input:-ms-input-placeholder {\n    text-transform: uppercase;\n}\n.FindRest__input::-ms-input-placeholder {\n    text-transform: uppercase;\n}\n.FindRest__input::placeholder {\n    text-transform: uppercase;\n}\n.button-linkAlt {\n    background: #FFFFFF;\n    border: 1px solid #E7475E;\n    box-sizing: border-box;\n    border-radius: 50px;\n    color: #E7475E;\n    text-transform: uppercase;\n    padding: 10px 15px;\n    cursor: pointer;\n    text-decoration: none;\n}\n", ""]);
 
 // exports
 
@@ -6454,7 +6454,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Header{\n    display: flex;\n    background: rgba(0, 0, 0, 0);\n    height: 80px;\n    flex-direction: row;\n    justify-content: space-around;\n    border-bottom: 1px solid #fff;\n}\n\n.Header .Menu{\n    display: flex;\n    width: 100%;\n    height: 80px;\n    background: rgba(0, 0, 0, 0);\n    /*position: fixed;*/\n    justify-content: space-around;\n}\n\n.menu-links{\n    font-size: 14px;\n    font-weight: normal;\n    display: block;\n    align-self: center;\n    text-decoration: none;\n    text-transform: uppercase;\n    color: #000;\n}\n\n.Menu .button-link{\n    font-size: 14px;\n}\n\n", ""]);
+exports.push([module.i, ".Header{\n    display: flex;\n    background: rgba(0, 0, 0, 0);\n    height: 80px;\n    flex-direction: row;\n    justify-content: space-around;\n    border-bottom: 1px solid #fff;\n    box-shadow: 0 0 3px 0 gray;\n}\n\n.Header .Menu{\n    display: flex;\n    width: 100%;\n    height: 80px;\n    background: rgba(0, 0, 0, 0);\n    justify-content: space-around;\n}\n\n.menu-links{\n    font-size: 14px;\n    font-weight: normal;\n    display: block;\n    align-self: center;\n    text-decoration: none;\n    text-transform: uppercase;\n    color: #000;\n}\n\n.menu-links:hover{\n    border-bottom: 3px solid #E7475E;\n}\n\n.selected{\n    border-bottom: 3px solid #E7475E;\n}\n\n.Menu .button-link{\n    font-size: 14px;\n}\n\n", ""]);
 
 // exports
 
@@ -70528,7 +70528,9 @@ var About = /*#__PURE__*/function (_Component) {
   _createClass(About, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "this is about us!"));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, "this is about us!"));
     }
   }]);
 
@@ -70650,7 +70652,7 @@ var Contacts = /*#__PURE__*/function (_Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "This is our contacts!"));
+      }, "This is our contacts!"));
     }
   }]);
 
@@ -71021,6 +71023,7 @@ var Header = /*#__PURE__*/function (_Component) {
         className: "Menu"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
         to: "/",
+        exact: true,
         className: "menu-links",
         activeClassName: "selected"
       }, "\u0413\u043B\u0430\u0432\u043D\u0430\u044F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
@@ -71199,7 +71202,8 @@ if (document.getElementById('root')) {
     path: "/",
     component: _components_Main_Main__WEBPACK_IMPORTED_MODULE_7__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Redirect"], {
-    to: "/"
+    to: "/",
+    exact: true
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_App__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], null)), document.getElementById('root'));
 }
 
