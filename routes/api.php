@@ -44,7 +44,19 @@ Route::group([
 |--------------------------------------------------------------------------
 | Start restaurant routes
 */
-Route::get('/send-order', 'MailController@send_order');
+Route::group([
+    'prefix' => '/mail',
+    'as' => 'mail::'
+],function () {
+    Route::get('/send-order', 'MailController@send_order')
+        ->name('order');
+
+    Route::get('/send-contact_us', 'MailController@send_ContactUs')
+        ->name('ContactUs');
+}
+);
+
+
 /*
 | Start restaurant routes
 |--------------------------------------------------------------------------
