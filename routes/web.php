@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+//нужко оставить так, чтоб работвл нормвльно реакт роутинг
+Route::view('/{path?}', 'welcome');
 
 
 /*
@@ -44,4 +44,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::resource('UsePRofil','UseAdminController');
+Route::get('/admin',function(){
+    return view('admin');
+})->name('admin.post')->middleware('can:edit-posts');
+
+Route::resource('UseRofil', 'UseAdminController');
