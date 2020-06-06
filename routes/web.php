@@ -44,4 +44,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::resource('UsePRofil','UseAdminController');
+Route::resource('UseRofil', 'UseAdminController');
