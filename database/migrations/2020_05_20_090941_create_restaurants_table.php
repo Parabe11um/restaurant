@@ -15,21 +15,29 @@ class CreateRestaurantsTable extends Migration
     {
         Schema::create('restaurants', function (Blueprint $table) {
             $table->bigIncrements('r_id');
-            $table->integer('r_restHolderId');
-            $table->string('r_name',50);
-            $table->string('r_description', 500);
+            $table->integer('r_restHolderId')
+                ->comment('ID владельца ресторана');
+            $table->string('r_name', 50)
+                ->comment('Имя ресторана');
+            $table->string('r_description', 500)
+                ->comment('Описание ресторана');
             $table->string('r_picture')
-                ->nullable();
-            $table->integer('r_inn');
+                ->nullable()
+                ->comment('Путь фото ресторана');
             $table->bigInteger('r_phone')
-                ->nullable();
+                ->nullable()
+                ->comment('Телефо ресторана');
             $table->string('r_address')
-                ->nullable();
+                ->nullable()
+                ->comment('Адресс ресторана');
             $table->string('r_site')
-                ->nullable();
+                ->nullable()
+                ->comment('URL сайта ресторана');
             $table->string('r_email')
-                ->nullable();
-            $table->json('r_tables');
+                ->nullable()
+                ->comment('E-mail ресторана');
+            $table->json('r_tables')
+            ->comment('JSON со столами ресторанов');
             $table->timestamps();
         });
     }

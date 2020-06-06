@@ -13,8 +13,9 @@
                                     @if (Auth::user()->hasRole('author'))
                                         <!-- при создании пользевателя поминять значения author на editor-->
                                     @endif
+                                      <a class="button-link" href="{{route('UsePRofil.edit',[Auth::user()->id])}}">Редактировать профиль</a> 
                                     @if(Auth::user()->name)
-                                        <a class="button-link" href="{{route('UseRofil.create')}}">Редактировать профиль</a>
+                                     
                                         <span class="user-name">{{ Auth::user()->name }}</span>
                                     @endif
                                 </nav>

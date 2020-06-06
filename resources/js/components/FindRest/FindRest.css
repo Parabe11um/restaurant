@@ -10,7 +10,7 @@
 .FindRest__title {
     font-weight: 300;
 }
-.FindRest__searchForm {
+.FindRest__searchForm form{
     border: 1px solid #9B9999;
     box-sizing: border-box;
     border-radius: 50px;

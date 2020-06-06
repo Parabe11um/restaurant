@@ -14,7 +14,7 @@ class UseAdmin extends Model
         'admin_name',
         'patronymic',
         'family', 
-        'admin.email',
+        'email',
         'phone',
         'Photo_file',
         'userId'

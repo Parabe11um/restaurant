@@ -17,7 +17,8 @@ if(document.getElementById('root')){
             <Header />
             <Switch>
                 <Route path='/about' component={About} />
-                <Route path='/restaurants' component={FindRest} />
+                <Route path='/restaurants' exact component={FindRest} />
+                <Route path='/restaurants/:id' exact component={RestDetail} />
                 <Route path='/contacts' component={Contacts} />
                 <Route path='/' component={Main} />
                 <Redirect to='/' exact />
