@@ -4,6 +4,7 @@
            <div class="row">
            <div class="col-md-offset-4 col-md-4">
              <form method="POST" action="{{route('UsePRofil.update',[Auth::user()->id])}}">
+
              {{csrf_field()}}
              {{method_field('put')}}
 
@@ -29,6 +30,7 @@
                 <label for="phone">phone</label>
                 <input type="text" class="from-control" id="phone" name="phone" value="{{$users->phone}}" >
               </div>
+
                 <input type="submit" value="Submit" class="btn btn-success">
                 </form>
                 </div>
