@@ -13,10 +13,11 @@
                                     @if (Auth::user()->hasRole('author'))
                                         <!-- при создании пользевателя поминять значения author на editor-->
                                     @endif
-                                      <a class="button-link" href="{{route('UsePRofil.edit',[Auth::user()->id])}}">Редактировать профиль</a> 
+                                      <a class="button-link" href="{{route('UsePRofil.edit',[Auth::user()->id])}}">Редактировать профиль</a>
                                     @if(Auth::user()->name)
-                                     
+
                                         <span class="user-name">{{ Auth::user()->name }}</span>
+                                        <a class="button-link" href="{{ url('/logout') }}"> Выйти </a>
                                     @endif
                                 </nav>
                             </div>
