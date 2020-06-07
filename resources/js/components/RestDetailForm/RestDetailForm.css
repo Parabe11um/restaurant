@@ -53,13 +53,14 @@
     resize: none;
     width: 100%;
     min-height: 200px;
-    padding: 15px;
+    padding: 22px;
     border: 1px solid #9B9999;
     box-sizing: border-box;
     border-radius: 50px;
 }
 
-.form-container textarea:focus {
+.form-container textarea:focus,
+.form-container input:focus{
     outline: none;
 }
 
@@ -67,4 +68,14 @@
     margin: 0 auto;
     border: none;
 }
+
+.form-container .button-link-btn:focus {
+    outline: none;
+}
+
+.form-container .button-link-btn:hover {
+    cursor: pointer;
+}
+
+
 

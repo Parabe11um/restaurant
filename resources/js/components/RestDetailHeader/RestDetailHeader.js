@@ -9,9 +9,9 @@ export class RestDetailHeader extends Component {
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.</span>
-            <button className="button-link button-link-btn">
+            <a href='#reserveForm' className="button-link button-link-btn">
                 Забронировать
-            </button>
+            </a>
         </div>
     }
 }
