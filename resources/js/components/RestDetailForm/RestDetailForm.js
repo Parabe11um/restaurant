@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './RestDetailForm.css';
 
-import {handleFormSubmit} from '../../modules/handleFormSubmit';
+import {handleFormSubmit} from '../../apiModules/handleFormSubmit';
 
 export class RestDetailForm extends Component {
 
