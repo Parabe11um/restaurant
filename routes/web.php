@@ -17,4 +17,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 Route::resource('UsePRofil','UseAdminController');
 Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
-Route::view('/{path?}', 'welcome');
+
+Route::view('/{path?}', 'welcome')
+    ->where('path', '.*')
+    ->name('welcome');
