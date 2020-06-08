@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 
 class test extends Controller
 {
-    function index(){
+    function index(Request $request){
         dd(Auth::id());
     }
 }

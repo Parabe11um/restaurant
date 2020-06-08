@@ -6523,7 +6523,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".html, body, div, p {\n    margin: 0;\n    font-family: 'Roboto', sans-serif;\n}\n\n.container {\n    width: 1170px;\n    margin: 0 auto;\n}\n\n.main{\n    height: 100vh;\n    background-image: url(\"/images/mainBg.png\");\n    background-size: cover;\n    background-repeat: no-repeat;\n}\n\n.main-page{\n    height: 80vh;\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    align-content: center;\n}\n\n.main .menu-links {\n    color: #fff;\n}\n\nh1{\n    color: #fff;\n    max-width: 50%;\n    font-size: 34px;\n    font-weight: normal;\n    text-align: center;\n    align-self: center;\n    padding-bottom: 40px;\n    border-bottom: 1px solid #fff;\n    margin-bottom: 55px;\n}\n\n.button-link{\n    background: #E7475E;\n    border-radius: 50px;\n    text-decoration: none;\n    text-transform: uppercase;\n    padding: 10px 15px;\n    text-align: center;\n    align-self: center;\n    color: #fff;\n}\n", ""]);
+exports.push([module.i, ".html, body, div, p {\r\n    margin: 0;\r\n    font-family: 'Roboto', sans-serif;\r\n}\r\n\r\n.container {\r\n    width: 1170px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.main{\r\n    height: 100vh;\r\n    background-image: url(\"/images/mainBg.png\");\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n.main-page{\r\n    height: 80vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n    align-content: center;\r\n}\r\n\r\n.main .menu-links {\r\n    color: #fff;\r\n}\r\n\r\nh1{\r\n    color: #fff;\r\n    max-width: 50%;\r\n    font-size: 34px;\r\n    font-weight: normal;\r\n    text-align: center;\r\n    align-self: center;\r\n    padding-bottom: 40px;\r\n    border-bottom: 1px solid #fff;\r\n    margin-bottom: 55px;\r\n}\r\n\r\n.button-link{\r\n    background: #E7475E;\r\n    border-radius: 50px;\r\n    text-decoration: none;\r\n    text-transform: uppercase;\r\n    padding: 10px 15px;\r\n    text-align: center;\r\n    align-self: center;\r\n    color: #fff;\r\n}\r\n", ""]);
 
 // exports
 
@@ -72703,8 +72703,8 @@ if (document.getElementById('root')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\OpenServer\OSPanel\domains\restaurant\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\OpenServer\OSPanel\domains\restaurant\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\OpenServer(5.3.7)\domains\restaurant\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\OpenServer(5.3.7)\domains\restaurant\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

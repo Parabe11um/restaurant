@@ -23,40 +23,23 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 */
 Route::group([
     'prefix' => '/rest',
-    'as' => 'rest::'
+    'as' => 'rest::',
+//    'middleware' => 'web',
+
 ],
     function () {
         Route::get('/list', 'restaurantController@search')
             ->name('list');
-        Route::get('/view', 'restaurantController@view')
+        Route::post('/view', 'restaurantController@view')
             ->name('view');
+        Route::match(['get', 'post'], '/edit', 'restaurantController@edit')
+            ->name('edit');
         Route::post('/add', 'restaurantController@add')
             ->name('add');
         Route::post('/delete/{id}', 'restaurantController@delete')
             ->name('delete');
     }
 );
-/*
-| Start restaurant routes
-|--------------------------------------------------------------------------
-*/
-/*
-|--------------------------------------------------------------------------
-| Start restaurant routes
-*/
-Route::group([
-    'prefix' => '/mail',
-    'as' => 'mail::'
-],function () {
-    Route::get('/send-order', 'MailController@send_order')
-        ->name('order');
-
-    Route::get('/send-contact_us', 'MailController@send_ContactUs')
-        ->name('ContactUs');
-}
-);
-
-
 /*
 | Start restaurant routes
 |--------------------------------------------------------------------------

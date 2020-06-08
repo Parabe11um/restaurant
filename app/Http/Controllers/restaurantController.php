@@ -51,4 +51,21 @@ class restaurantController extends Controller
         return $restaurant;
 
     }
+
+    function edit(Request $request)
+    {
+         dd(Auth::id());
+        if ($request->isMethod('post')){
+
+
+        }
+        $r_id = $request->get('r_id');
+        $restaurant = restaurant::where('r_id', $r_id)->get();
+        $restaurant->toJson();
+        if ($restaurant == "[]"){
+            return Json::prettify('{"Error" : "Что то пошло не так"}');
+        }
+        return $restaurant;
+
+    }
 }
