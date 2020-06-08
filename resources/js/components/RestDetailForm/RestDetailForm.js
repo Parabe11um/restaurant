@@ -18,22 +18,60 @@ export class RestDetailForm extends Component {
             message: '',
         }
 
-        this.handleChange = (event) => {
-            const name = event.currentTarget.name;
-            const value = event.currentTarget.value;
+        this.handleChange = this.handleChange.bind(this);
+        this.onSubmit = this.onSubmit.bind(this);
+        // this.handleFormSubmit = this.handleFormSubmit.bind(this);
+        this.handleClearForm = this.handleClearForm.bind(this);
 
-            this.setState((state) => ({
-                [name]: value,
-            }))
-        }
+    }
 
-        this.onSubmit = (event) => {
-            event.preventDefault();
-            // const {name, phone, email, date, period, persons, message} = this.state
-            const data = this.state;
-            console.log(data)
-            // handleFormSubmit(data)
-        }
+    handleChange(event) {
+        const name = event.currentTarget.name;
+        const value = event.currentTarget.value;
+
+        this.setState((state) => ({
+            [name]: value,
+        }))
+    }
+
+    // handleFormSubmit(e) {
+    //     e.preventDefault();
+    //     let userData = this.state;
+    //
+    //     fetch('example-api',{
+    //         method: "POST",
+    //         body: JSON.stringify(userData),
+    //         headers: {
+    //             'Accept': 'application/json',
+    //             'Content-Type': 'application/json'
+    //         },
+    //     }).then(response => {
+    //         response.json().then(data =>{
+    //             console.log("Successful" + data);
+    //         })
+    //     })
+    // }
+
+    onSubmit(event) {
+        event.preventDefault();
+        const data = this.state;
+        console.log(data)
+        handleFormSubmit(data)
+        this.handleClearForm()
+    }
+
+
+    handleClearForm() {
+        this.setState({
+            r_id: this.props.id,
+            name: '',
+            phone: '',
+            email: '',
+            date: '',
+            period: '',
+            guests: '',
+            message: '',
+        })
     }
 
 

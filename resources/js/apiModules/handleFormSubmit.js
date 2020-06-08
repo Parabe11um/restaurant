@@ -9,9 +9,9 @@ export const handleFormSubmit = async (data) => {
             },
         });
         const result = await response.json();
+        console.log(result)
+        console.log("SUCCESS")
     } catch (e) {
         console.log(e)
     }
-
-    console.log("the form has been sent")
 }
