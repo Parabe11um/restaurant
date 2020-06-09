@@ -20,6 +20,8 @@
 .RestDetail-info div span {
     width: 50%;
     margin: 10px 0;
+    padding: 0 5px;
+    box-sizing: border-box;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
