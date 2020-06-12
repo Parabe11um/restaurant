@@ -72746,8 +72746,10 @@ if (document.getElementById('root')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\OSPanel(5.3.7)\OpenServer\domains\restaurant\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! E:\OSPanel(5.3.7)\OpenServer\domains\restaurant\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\OpenServer(5.3.7)\domains\restaurant\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\OpenServer(5.3.7)\domains\restaurant\resources\sass\app.scss */"./resources/sass/app.scss");
+
+
 /***/ })
 
 /******/ });
