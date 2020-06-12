@@ -35,7 +35,7 @@ class restaurantController extends Controller
     function view(Request $request)
     {
         $r_id = $request->get('r_id');
-        $restaurant = restaurant::where('r_id', $r_id)->get();
+        $restaurant = restaurant::where('r_id', $r_id)->first();
         $restaurant->toJson();
         if ($restaurant == "[]") {
             return Json::prettify('{"Error" : "Что то пошло не так"}');

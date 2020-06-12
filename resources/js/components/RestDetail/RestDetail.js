@@ -26,8 +26,6 @@ export class RestDetail extends Component {
                         restaurantData: result
                         // restaurantData: result[id-1]
                     })
-                    console.log(result)
-                console.log(this.state.restaurantData)
                 },
                 (error) => {
                     console.log(error)

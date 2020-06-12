@@ -30,7 +30,7 @@ Route::group([
     function () {
         Route::get('/view', 'restaurantController@mView')
             ->name('view');
-        Route::match(['get', 'post','update'], '/add', 'restaurantController@add')
+        Route::match(['get', 'post', 'update'], '/add', 'restaurantController@add')
             ->name('add');
         Route::post('/delete/{id}', 'restaurantController@delete')
             ->name('delete');

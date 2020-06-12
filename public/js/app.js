@@ -72338,9 +72338,6 @@ var RestDetail = /*#__PURE__*/function (_Component) {
           restaurantData: result // restaurantData: result[id-1]
 
         });
-
-        console.log(result);
-        console.log(_this2.state.restaurantData);
       }, function (error) {
         console.log(error);
       });
@@ -72485,24 +72482,25 @@ var RestDetailForm = /*#__PURE__*/function (_Component) {
       this.setState(function (state) {
         return _defineProperty({}, name, value);
       });
-    } // handleFormSubmit(e) {
-    //     e.preventDefault();
-    //     let userData = this.state;
-    //
-    //     fetch('example-api',{
-    //         method: "POST",
-    //         body: JSON.stringify(userData),
-    //         headers: {
-    //             'Accept': 'application/json',
-    //             'Content-Type': 'application/json'
-    //         },
-    //     }).then(response => {
-    //         response.json().then(data =>{
-    //             console.log("Successful" + data);
-    //         })
-    //     })
-    // }
-
+    }
+  }, {
+    key: "handleFormSubmit",
+    value: function handleFormSubmit(e) {
+      e.preventDefault();
+      var userData = this.state;
+      fetch('api/mail/send-order', {
+        method: "POST",
+        body: JSON.stringify(userData),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      }).then(function (response) {
+        response.json().then(function (data) {
+          console.log("Successful" + data);
+        });
+      });
+    }
   }, {
     key: "onSubmit",
     value: function onSubmit(event) {
