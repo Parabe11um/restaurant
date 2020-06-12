@@ -30,10 +30,6 @@ Route::group([
             ->name('list');
         Route::get('/view', 'restaurantController@view')
             ->name('view');
-        Route::post('/add', 'restaurantController@add')
-            ->name('add');
-        Route::post('/delete/{id}', 'restaurantController@delete')
-            ->name('delete');
     }
 );
 /*
@@ -47,11 +43,11 @@ Route::group([
 Route::group([
     'prefix' => '/mail',
     'as' => 'mail::'
-],function () {
-    Route::get('/send-order', 'MailController@send_order')
+], function () {
+    Route::post('/send-order', 'MailController@send_order')
         ->name('order');
 
-    Route::get('/send-contact_us', 'MailController@send_ContactUs')
+    Route::post('/send-contact_us', 'MailController@send_ContactUs')
         ->name('ContactUs');
 }
 );
