@@ -6523,7 +6523,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".html, body, div, p {\n    margin: 0;\n    font-family: 'Roboto', sans-serif;\n}\n\n.container {\n    width: 1170px;\n    margin: 0 auto;\n}\n\n.main{\n    height: 100vh;\n    background-image: url(\"/images/mainBg.png\");\n    background-size: cover;\n    background-repeat: no-repeat;\n}\n\n.main-page{\n    height: 80vh;\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    align-content: center;\n}\n\n.main .menu-links {\n    color: #fff;\n}\n\nh1{\n    color: #fff;\n    max-width: 50%;\n    font-size: 34px;\n    font-weight: normal;\n    text-align: center;\n    align-self: center;\n    padding-bottom: 40px;\n    border-bottom: 1px solid #fff;\n    margin-bottom: 55px;\n}\n\n.button-link{\n    background: #E7475E;\n    border-radius: 50px;\n    text-decoration: none;\n    text-transform: uppercase;\n    padding: 10px 15px;\n    text-align: center;\n    align-self: center;\n    color: #fff;\n}\n", ""]);
+exports.push([module.i, ".html, body, div, p {\r\n    margin: 0;\r\n    font-family: 'Roboto', sans-serif;\r\n}\r\n\r\n.container {\r\n    width: 1170px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.main{\r\n    height: 100vh;\r\n    background-image: url(\"/images/mainBg.png\");\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n.main-page{\r\n    height: 80vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n    align-content: center;\r\n}\r\n\r\n.main .menu-links {\r\n    color: #fff;\r\n}\r\n\r\nh1{\r\n    color: #fff;\r\n    max-width: 50%;\r\n    font-size: 34px;\r\n    font-weight: normal;\r\n    text-align: center;\r\n    align-self: center;\r\n    padding-bottom: 40px;\r\n    border-bottom: 1px solid #fff;\r\n    margin-bottom: 55px;\r\n}\r\n\r\n.button-link{\r\n    background: #E7475E;\r\n    border-radius: 50px;\r\n    text-decoration: none;\r\n    text-transform: uppercase;\r\n    padding: 10px 15px;\r\n    text-align: center;\r\n    align-self: center;\r\n    color: #fff;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6542,7 +6542,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".RestDetail-container {\r\n    width: 80%;\r\n    padding: 15px;\r\n    border: 1px solid;\r\n    margin: 25px auto;\r\n    border: 1px solid #9B9999;\r\n    box-sizing: border-box;\r\n    border-radius: 10px;\r\n}\r\n\r\n.RestDetail-description {\r\n    padding-top: 40px;\r\n}\r\n\r\n.RestDetail-info div {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n}\r\n\r\n.RestDetail-info div span {\r\n    width: 50%;\r\n    margin: 10px 0;\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 15px;\r\n    line-height: 18px;\r\n}\r\n\r\n.RestDetail-container_title  {\r\n    padding: 0 20px;\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    align-items: center;\r\n    text-align: center;\r\n    color: #000;\r\n}\r\n\r\n.RestDetail-description-text {\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    display: flex;\r\n    align-items: center;\r\n    color: #A39E9E;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, ".RestDetail-container {\r\n    width: 80%;\r\n    padding: 15px;\r\n    border: 1px solid;\r\n    margin: 25px auto;\r\n    border: 1px solid #9B9999;\r\n    box-sizing: border-box;\r\n    border-radius: 10px;\r\n}\r\n\r\n.RestDetail-description {\r\n    padding-top: 40px;\r\n}\r\n\r\n.RestDetail-info div {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n}\r\n\r\n.RestDetail-info div span {\r\n    width: 50%;\r\n    margin: 10px 0;\r\n    padding: 0 5px;\r\n    box-sizing: border-box;\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 15px;\r\n    line-height: 18px;\r\n}\r\n\r\n.RestDetail-container_title  {\r\n    padding: 0 20px;\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    align-items: center;\r\n    text-align: center;\r\n    color: #000;\r\n}\r\n\r\n.RestDetail-description-text {\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    display: flex;\r\n    align-items: center;\r\n    color: #A39E9E;\r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -71284,7 +71284,7 @@ var handleFormSubmit = /*#__PURE__*/function () {
           case 0:
             _context.prev = 0;
             _context.next = 3;
-            return fetch('example-api', {
+            return fetch('api/mail/send-order', {
               method: "POST",
               body: JSON.stringify(data),
               headers: {
@@ -71300,23 +71300,22 @@ var handleFormSubmit = /*#__PURE__*/function () {
 
           case 6:
             result = _context.sent;
-            _context.next = 12;
+            console.log(result);
+            console.log("SUCCESS");
+            _context.next = 14;
             break;
 
-          case 9:
-            _context.prev = 9;
+          case 11:
+            _context.prev = 11;
             _context.t0 = _context["catch"](0);
             console.log(_context.t0);
 
-          case 12:
-            console.log("the form has been sent");
-
-          case 13:
+          case 14:
           case "end":
             return _context.stop();
         }
       }
-    }, _callee, null, [[0, 9]]);
+    }, _callee, null, [[0, 11]]);
   }));
 
   return function handleFormSubmit(_x) {
@@ -71901,7 +71900,9 @@ var FindRestItem = function FindRestItem(props) {
     className: "info__text"
   }, props.r_description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "button-linkAlt",
-    to: "/restaurants/".concat(props.r_id)
+    to: {
+      pathname: "/restaurants/".concat(props.r_id)
+    }
   }, "\u041F\u043E\u0434\u0440\u043E\u0431\u043D\u0435\u0435")));
 };
 
@@ -72275,8 +72276,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _RestDetailHeader_RestDetailHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../RestDetailHeader/RestDetailHeader */ "./resources/js/components/RestDetailHeader/RestDetailHeader.js");
 /* harmony import */ var _RestDetailForm_RestDetailForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../RestDetailForm/RestDetailForm */ "./resources/js/components/RestDetailForm/RestDetailForm.js");
-/* harmony import */ var _RestDetail_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./RestDetail.css */ "./resources/js/components/RestDetail/RestDetail.css");
-/* harmony import */ var _RestDetail_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_RestDetail_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _RestDetail_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./RestDetail.css */ "./resources/js/components/RestDetail/RestDetail.css");
+/* harmony import */ var _RestDetail_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_RestDetail_css__WEBPACK_IMPORTED_MODULE_4__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -72303,31 +72305,67 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+
 var RestDetail = /*#__PURE__*/function (_Component) {
   _inherits(RestDetail, _Component);
 
   var _super = _createSuper(RestDetail);
 
-  function RestDetail() {
+  function RestDetail(props) {
+    var _this;
+
     _classCallCheck(this, RestDetail);
 
-    return _super.apply(this, arguments);
+    _this = _super.call(this, props);
+    _this.state = {
+      id: _this.props.match.params.id,
+      restaurantData: null
+    };
+    return _this;
   }
 
   _createClass(RestDetail, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      var id = this.state.id;
+      console.log(id);
+      fetch("/api/rest/view?r_id=".concat(id)).then(function (res) {
+        return res.json();
+      }).then(function (result) {
+        _this2.setState({
+          restaurantData: result // restaurantData: result[id-1]
+
+        });
+      }, function (error) {
+        console.log(error);
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RestDetailHeader_RestDetailHeader__WEBPACK_IMPORTED_MODULE_1__["RestDetailHeader"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("fieldset", {
-        className: "RestDetail-container RestDetail-description"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("legend", {
-        className: "RestDetail-container_title RestDetail-description__title"
-      }, "\u041E\u041F\u0418\u0421\u0410\u041D\u0418\u0415 \u0420\u0415\u0421\u0422\u041E\u0420\u0410\u041D\u0410"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "RestDetail-description-text"
-      }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, recusandae.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("fieldset", {
-        className: "RestDetail-container RestDetail-info"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("legend", {
-        className: "RestDetail-container_title RestDetail-info__title"
-      }, "\u041A\u041E\u041D\u0422\u0410\u041A\u0422\u041D\u042B\u0415 \u0414\u0410\u041D\u041D\u042B\u0415"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u0442\u043E\u043B\u043E\u0432: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043C\u0435\u0441\u0442: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0420\u0430\u0437\u043C\u0435\u0440: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0410\u0434\u0440\u0435\u0441: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0422\u0435\u043B\u0435\u0444\u043E\u043D: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0421\u0430\u0439\u0442: "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Email: "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RestDetailForm_RestDetailForm__WEBPACK_IMPORTED_MODULE_2__["RestDetailForm"], null));
+      if (this.state.restaurantData) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RestDetailHeader_RestDetailHeader__WEBPACK_IMPORTED_MODULE_1__["RestDetailHeader"], {
+          restData: this.state.restaurantData
+        }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("fieldset", {
+          className: "RestDetail-container RestDetail-description"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("legend", {
+          className: "RestDetail-container_title RestDetail-description__title"
+        }, "\u041E\u041F\u0418\u0421\u0410\u041D\u0418\u0415 \u0420\u0415\u0421\u0422\u041E\u0420\u0410\u041D\u0410"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+          className: "RestDetail-description-text"
+        }, this.state.restaurantData.r_description)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("fieldset", {
+          className: "RestDetail-container RestDetail-info"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("legend", {
+          className: "RestDetail-container_title RestDetail-info__title"
+        }, "\u041A\u041E\u041D\u0422\u0410\u041A\u0422\u041D\u042B\u0415 \u0414\u0410\u041D\u041D\u042B\u0415"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u0442\u043E\u043B\u043E\u0432: ", this.state.restaurantData.r_tables[10]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u041A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043C\u0435\u0441\u0442: ", this.state.restaurantData.r_tables[23]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0410\u0434\u0440\u0435\u0441: ", this.state.restaurantData.r_address), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0422\u0435\u043B\u0435\u0444\u043E\u043D: ", this.state.restaurantData.r_phone), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0421\u0430\u0439\u0442: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+          href: this.state.restaurantData.r_site
+        }, this.state.restaurantData.r_name)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Email: ", this.state.restaurantData.r_email))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_RestDetailForm_RestDetailForm__WEBPACK_IMPORTED_MODULE_2__["RestDetailForm"], {
+          id: this.state.restaurantData.r_id
+        }));
+      }
+
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Loading...");
     }
   }]);
 
@@ -72429,27 +72467,64 @@ var RestDetailForm = /*#__PURE__*/function (_Component) {
       guests: '',
       message: ''
     };
+    _this.handleChange = _this.handleChange.bind(_assertThisInitialized(_this));
+    _this.onSubmit = _this.onSubmit.bind(_assertThisInitialized(_this)); // this.handleFormSubmit = this.handleFormSubmit.bind(this);
 
-    _this.handleChange = function (event) {
-      var name = event.currentTarget.name;
-      var value = event.currentTarget.value;
-
-      _this.setState(function (state) {
-        return _defineProperty({}, name, value);
-      });
-    };
-
-    _this.onSubmit = function (event) {
-      event.preventDefault(); // const {name, phone, email, date, period, persons, message} = this.state
-
-      var data = _this.state;
-      console.log(data); // handleFormSubmit(data)
-    };
-
+    _this.handleClearForm = _this.handleClearForm.bind(_assertThisInitialized(_this));
     return _this;
   }
 
   _createClass(RestDetailForm, [{
+    key: "handleChange",
+    value: function handleChange(event) {
+      var name = event.currentTarget.name;
+      var value = event.currentTarget.value;
+      this.setState(function (state) {
+        return _defineProperty({}, name, value);
+      });
+    }
+  }, {
+    key: "handleFormSubmit",
+    value: function handleFormSubmit(e) {
+      e.preventDefault();
+      var userData = this.state;
+      fetch('api/mail/send-order', {
+        method: "POST",
+        body: JSON.stringify(userData),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      }).then(function (response) {
+        response.json().then(function (data) {
+          console.log("Successful" + data);
+        });
+      });
+    }
+  }, {
+    key: "onSubmit",
+    value: function onSubmit(event) {
+      event.preventDefault();
+      var data = this.state;
+      console.log(data);
+      Object(_apiModules_handleFormSubmit__WEBPACK_IMPORTED_MODULE_2__["handleFormSubmit"])(data);
+      this.handleClearForm();
+    }
+  }, {
+    key: "handleClearForm",
+    value: function handleClearForm() {
+      this.setState({
+        r_id: this.props.id,
+        name: '',
+        phone: '',
+        email: '',
+        date: '',
+        period: '',
+        guests: '',
+        message: ''
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
@@ -72569,59 +72644,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _RestDetailHeader_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./RestDetailHeader.css */ "./resources/js/components/RestDetailHeader/RestDetailHeader.css");
 /* harmony import */ var _RestDetailHeader_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_RestDetailHeader_css__WEBPACK_IMPORTED_MODULE_1__);
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 
-
-var RestDetailHeader = /*#__PURE__*/function (_Component) {
-  _inherits(RestDetailHeader, _Component);
-
-  var _super = _createSuper(RestDetailHeader);
-
-  function RestDetailHeader() {
-    _classCallCheck(this, RestDetailHeader);
-
-    return _super.apply(this, arguments);
+var RestDetailHeader = function RestDetailHeader(props) {
+  if (props.restData) {
+    var _props$restData = props.restData,
+        r_name = _props$restData.r_name,
+        r_description = _props$restData.r_description;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "RestDetailHeader"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "RestDetailHeader-title"
+    }, r_name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      className: "RestDetailHeader-description"
+    }, r_description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: "#reserveForm",
+      className: "button-link button-link-btn"
+    }, "\u0417\u0430\u0431\u0440\u043E\u043D\u0438\u0440\u043E\u0432\u0430\u0442\u044C"));
   }
 
-  _createClass(RestDetailHeader, [{
-    key: "render",
-    value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "RestDetailHeader"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-        className: "RestDetailHeader-title"
-      }, "\u0420\u0415\u0421\u0422\u041E\u0420\u0410\u041D \u041D\u0415\u0418\u0417\u0412\u0415\u0421\u0422\u041D\u042B\u0419"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "RestDetailHeader-description"
-      }, "Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "#reserveForm",
-        className: "button-link button-link-btn"
-      }, "\u0417\u0430\u0431\u0440\u043E\u043D\u0438\u0440\u043E\u0432\u0430\u0442\u044C"));
-    }
-  }]);
-
-  return RestDetailHeader;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+  return null;
+};
 
 /***/ }),
 
@@ -72703,8 +72746,8 @@ if (document.getElementById('root')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\OpenServer\OSPanel\domains\restaurant\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\OpenServer\OSPanel\domains\restaurant\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\OpenServer(5.3.7)\domains\restaurant\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\OpenServer(5.3.7)\domains\restaurant\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

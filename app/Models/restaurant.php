@@ -10,7 +10,7 @@ class restaurant extends Model
         'r_name',
         'r_description',
         'r_picture',
-        'r_inn',
+        'r_restHolderId',
         'r_phone',
         'r_address',
         'r_site',
