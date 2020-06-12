@@ -35,13 +35,13 @@ Route::group([
     }
 );
 /*
-| Start restaurant routes
+| End restaurant routes
 |--------------------------------------------------------------------------
 */
 
 /*
 |--------------------------------------------------------------------------
-| Start restaurant routes
+| Start mail routes
 */
 Route::group([
     'prefix' => '/mail',
@@ -57,6 +57,6 @@ Route::group([
 
 
 /*
-| Start restaurant routes
+| End mail routes
 |--------------------------------------------------------------------------
 */
