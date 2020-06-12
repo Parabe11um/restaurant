@@ -19,13 +19,14 @@ export class RestDetail extends Component {
         const {id} = this.state;
         console.log(id)
 
-        fetch(`/api/rest/list?r_id=${id}`)
+        fetch(`/api/rest/view?r_id=${id}`)
             .then(res => res.json())
             .then ((result) => {
                     this.setState({
-                        // restaurantData: result
-                        restaurantData: result[id-1]
+                        restaurantData: result
+                        // restaurantData: result[id-1]
                     })
+                    console.log(result)
                 console.log(this.state.restaurantData)
                 },
                 (error) => {

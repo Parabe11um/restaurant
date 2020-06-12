@@ -72331,14 +72331,15 @@ var RestDetail = /*#__PURE__*/function (_Component) {
 
       var id = this.state.id;
       console.log(id);
-      fetch("/api/rest/list?r_id=".concat(id)).then(function (res) {
+      fetch("/api/rest/view?r_id=".concat(id)).then(function (res) {
         return res.json();
       }).then(function (result) {
         _this2.setState({
-          // restaurantData: result
-          restaurantData: result[id - 1]
+          restaurantData: result // restaurantData: result[id-1]
+
         });
 
+        console.log(result);
         console.log(_this2.state.restaurantData);
       }, function (error) {
         console.log(error);
