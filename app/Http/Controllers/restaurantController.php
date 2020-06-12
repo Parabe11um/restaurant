@@ -22,8 +22,9 @@ class restaurantController extends Controller
     }
 
 
-    function delete($r_id)
+    function delete(Request $request)
     {
+        $r_id = $request->get('r_id');
         $restaurant = restaurant::where('r_id', $r_id)->first();
         if ($restaurant['r_restHolderId'] = Auth::id()) {
             restaurant::destroy($r_id);
@@ -58,39 +59,37 @@ class restaurantController extends Controller
 
     function edit(Request $request)
     {
-         dd(Auth::id());
-        if ($request->isMethod('post')){
-
-
+        dd(Auth::id());
+        if ($request->isMethod('post')) {
         }
         $r_id = $request->get('r_id');
         $restaurant = restaurant::where('r_id', $r_id)->get();
         $restaurant->toJson();
-        if ($restaurant == "[]"){
+        if ($restaurant == "[]") {
             return Json::prettify('{"Error" : "Что то пошло не так"}');
         }
         return $restaurant;
+    }
 
     function add(Request $request)
     {
         if (Auth::id() === null) {
-            return Json::prettify('{"isSave" : "Not login"}');
+            return Json::prettify('{"massage" : "Not login"}');
         }
-
         $r_restHolderId = Auth::id();
 
         if ($request->isMethod('get')) {
             $r_id = $request->get('r_id');
             $restaurant = restaurant::where('r_id', $r_id)->first();
-            if ($restaurant === null){
-                return Json::prettify('{"Error" : "Не можем найти ресторан"}');
+            if ($restaurant === null) {
+                return Json::prettify('{"massage" : "Не можем найти ресторан"}');
             }
             $restaurant->toJson();
             if ($restaurant['r_restHolderId'] !== $r_restHolderId) {
-                return Json::prettify('{"Error" : "Кажется это не ваш ресторан"}');
+                return Json::prettify('{"massage" : "Кажется это не ваш ресторан"}');
             }
             if ($restaurant == "[]") {
-                return Json::prettify('{"Error" : "Что то пошло не так"}');
+                return Json::prettify('{"massage" : "Что то пошло не так"}');
             }
             return $restaurant;
         }
@@ -113,4 +112,3 @@ class restaurantController extends Controller
             return Json::prettify('{"isSave" : "save"}');
         }
     }
-}

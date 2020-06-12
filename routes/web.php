@@ -22,7 +22,7 @@ Route::get('test', 'test@index');
 
 /*
 |--------------------------------------------------------------------------
-| Start restaurant routes
+| Start manager routes
 */
 Route::group([
     'prefix' => '/manage',
@@ -33,25 +33,14 @@ Route::group([
             ->name('view');
         Route::match(['get', 'post', 'update'], '/add', 'restaurantController@add')
             ->name('add');
-        Route::post('/delete/{id}', 'restaurantController@delete')
+        Route::post('/delete', 'restaurantController@delete')
             ->name('delete');
     }
 );
 /*
-| Start restaurant routes
+| End manager routes
 |--------------------------------------------------------------------------
 */
-
-Route::group([
-    'prefix' => '/rest',
-    'as' => 'rest::',
-],
-    function () {
-        Route::match(['get', 'post'], '/edit', 'restaurantController@edit')
-            ->name('edit');
-    }
-);
-
 Route::view('/{path?}', 'welcome')
     ->where('path', '.*')
     ->name('home');
