@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-
-
+use Mail;
+use App\Mail\RegistrationMail;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\RegisterRequest;
 use Illuminate\Support\Facades\Validator;
@@ -47,6 +47,7 @@ class RegisterController extends Controller
         event(new Registered($user = $this->create($request->all())));
 
         $this->guard()->login($user);
+        Mail::to($user->email)->send(new RegistrationMail($user->name));
 
         return $this->registered($request, $user)
             ?: redirect($this->redirectPath());
@@ -95,4 +96,6 @@ class RegisterController extends Controller
             log($e->getMessage());
         }
     }
+ 
+
 }

@@ -43,7 +43,4 @@ Route::group([
 */
 Route::view('/{path?}', 'welcome')
     ->where('path', '.*')
-    ->name('home');
-
-
-
+    ->name('welcome');

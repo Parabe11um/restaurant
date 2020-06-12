@@ -9,6 +9,12 @@ use App\User;
 use App\Http\Requests\CreateUseadminRequest; 
 use Auth;
 use resources\views\home;
+
+use Illuminate\Support\Facades\Hash;
+use App\Http\Controllers\Controller;
+
+
+
 class UseAdminController extends Controller
 {
     /**
@@ -93,13 +99,24 @@ class UseAdminController extends Controller
     {
         $users= User::findOrFail($id);
         $users->fill($request->all());
+
+         $users->password = bcrypt($users); 
+         $request->has('password');
+       // update password
+           
+     
+
       
+
 
         if(!$users->save()){
             return redirect()->back()->withErrors('Update error');
         }
               return redirect('home');  
                        }
+
+   
+
     
 
     /**
@@ -110,6 +127,14 @@ class UseAdminController extends Controller
      */
     public function destroy($id)
     {
-        //
-    }
+          $users= User::findOrFail($id);
+           if(!$users->delete()){
+            return redirect()->back()->withErrors('Delete error');
+        }
+        session()->flash('flash_message','Post deleted');
+              return redirect('/');
+ 
+                       }
+
+    
 }
