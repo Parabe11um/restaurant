@@ -9,8 +9,10 @@ use App\User;
 use App\Http\Requests\CreateUseadminRequest; 
 use Auth;
 use resources\views\home;
+
 use Illuminate\Support\Facades\Hash;
 use App\Http\Controllers\Controller;
+
 
 
 class UseAdminController extends Controller
@@ -97,18 +99,25 @@ class UseAdminController extends Controller
     {
         $users= User::findOrFail($id);
         $users->fill($request->all());
+
          $users->password = bcrypt($users); 
          $request->has('password');
        // update password
            
      
 
+      
+
+
         if(!$users->save()){
             return redirect()->back()->withErrors('Update error');
         }
               return redirect('home');  
                        }
+
    
+
+    
 
     /**
      * Remove the specified resource from storage.

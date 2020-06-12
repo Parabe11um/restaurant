@@ -20,4 +20,8 @@ Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
 Route::view('/{path?}', 'welcome')
     ->where('path', '.*')
+
     ->name('welcome');
+
+    ->name('welcome');
+
