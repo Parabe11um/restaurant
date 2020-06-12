@@ -71284,7 +71284,7 @@ var handleFormSubmit = /*#__PURE__*/function () {
           case 0:
             _context.prev = 0;
             _context.next = 3;
-            return fetch('example-api', {
+            return fetch('api/mail/send-order', {
               method: "POST",
               body: JSON.stringify(data),
               headers: {
