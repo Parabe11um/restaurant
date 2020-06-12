@@ -32,14 +32,30 @@ Route::group([
             ->name('list');
         Route::post('/view', 'restaurantController@view')
             ->name('view');
-        Route::match(['get', 'post'], '/edit', 'restaurantController@edit')
-            ->name('edit');
-        Route::post('/add', 'restaurantController@add')
-            ->name('add');
-        Route::post('/delete/{id}', 'restaurantController@delete')
-            ->name('delete');
     }
 );
+/*
+| Start restaurant routes
+|--------------------------------------------------------------------------
+*/
+
+/*
+|--------------------------------------------------------------------------
+| Start restaurant routes
+*/
+Route::group([
+    'prefix' => '/mail',
+    'as' => 'mail::'
+], function () {
+    Route::post('/send-order', 'MailController@send_order')
+        ->name('order');
+
+    Route::post('/send-contact_us', 'MailController@send_ContactUs')
+        ->name('ContactUs');
+}
+);
+
+
 /*
 | Start restaurant routes
 |--------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 export const handleFormSubmit = async (data) => {
     try {
-        const response = await fetch('example-api', {
+        const response = await fetch('api/mail/send-order', {
             method: "POST",
             body: JSON.stringify(data),
             headers: {
@@ -9,9 +9,9 @@ export const handleFormSubmit = async (data) => {
             },
         });
         const result = await response.json();
+        console.log(result)
+        console.log("SUCCESS")
     } catch (e) {
         console.log(e)
     }
-
-    console.log("the form has been sent")
 }

@@ -21,14 +21,6 @@ class restaurantController extends Controller
         return $restaurants->toJson();
     }
 
-    function add(Request $request)
-    {
-        $this->validate($request, restaurant::rules, []);
-        $model = new restaurant();
-        $model->fill($request->all());
-        $model->save();
-        return Json::prettify('{"isSave" : "save"}');
-    }
 
     function delete($r_id)
     {
@@ -43,9 +35,21 @@ class restaurantController extends Controller
     function view(Request $request)
     {
         $r_id = $request->get('r_id');
-        $restaurant = restaurant::where('r_id', $r_id)->get();
+        $restaurant = restaurant::where('r_id', $r_id)->first();
         $restaurant->toJson();
-        if ($restaurant == "[]"){
+        if ($restaurant == "[]") {
+            return Json::prettify('{"Error" : "Что то пошло не так"}');
+        }
+        return $restaurant;
+
+    }
+
+    function mView()
+    {
+        $r_restHolderId = Auth::id();
+        $restaurant = restaurant::where('r_restHolderId', $r_restHolderId)->get();
+        $restaurant->toJson();
+        if ($restaurant == "[]") {
             return Json::prettify('{"Error" : "Что то пошло не так"}');
         }
         return $restaurant;
@@ -67,5 +71,46 @@ class restaurantController extends Controller
         }
         return $restaurant;
 
+    function add(Request $request)
+    {
+        if (Auth::id() === null) {
+            return Json::prettify('{"isSave" : "Not login"}');
+        }
+
+        $r_restHolderId = Auth::id();
+
+        if ($request->isMethod('get')) {
+            $r_id = $request->get('r_id');
+            $restaurant = restaurant::where('r_id', $r_id)->first();
+            if ($restaurant === null){
+                return Json::prettify('{"Error" : "Не можем найти ресторан"}');
+            }
+            $restaurant->toJson();
+            if ($restaurant['r_restHolderId'] !== $r_restHolderId) {
+                return Json::prettify('{"Error" : "Кажется это не ваш ресторан"}');
+            }
+            if ($restaurant == "[]") {
+                return Json::prettify('{"Error" : "Что то пошло не так"}');
+            }
+            return $restaurant;
+        }
+
+        if ($request->isMethod('post')) {
+//            $this->validate($request, restaurant::rules, []);
+            $model = new restaurant();
+            $model->fill($request->all());
+            $model->fill(['r_restHolderId' => $r_restHolderId]);
+            $model->save();
+            return Json::prettify('{"isSave" : "save"}');
+        }
+
+        if ($request->isMethod('update')) {
+//            $this->validate($request, restaurant::rules, []);
+            $r_id = $request->get('r_id');
+            $model = $restaurant = restaurant::where('r_id', $r_id)->first();
+            $model->fill($request->all());
+            $model->save();
+            return Json::prettify('{"isSave" : "save"}');
+        }
     }
 }
