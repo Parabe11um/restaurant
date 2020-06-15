@@ -112,3 +112,4 @@ class restaurantController extends Controller
             return Json::prettify('{"isSave" : "save"}');
         }
     }
+}
