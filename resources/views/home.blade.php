@@ -14,6 +14,14 @@
                                         <!-- при создании пользевателя поминять значения author на editor-->
                                     @endif
                                       <a class="button-link" href="{{route('UsePRofil.edit',[Auth::user()->id])}}">Редактировать профиль</a>
+
+                                      <form method="POST" action="{{route('UsePRofil.destroy',[Auth::user()->id])}}">
+                                      {{csrf_field()}}
+                                      {{method_field('delete')}}
+                                      <input type="submit" value="Delete" class="btn btn-danger">
+                                      </form>
+
+
                                     @if(Auth::user()->name)
 
                                         <span class="user-name">{{ Auth::user()->name }}</span>

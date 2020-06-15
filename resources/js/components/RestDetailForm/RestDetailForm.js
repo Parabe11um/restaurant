@@ -34,23 +34,23 @@ export class RestDetailForm extends Component {
         }))
     }
 
-    // handleFormSubmit(e) {
-    //     e.preventDefault();
-    //     let userData = this.state;
-    //
-    //     fetch('example-api',{
-    //         method: "POST",
-    //         body: JSON.stringify(userData),
-    //         headers: {
-    //             'Accept': 'application/json',
-    //             'Content-Type': 'application/json'
-    //         },
-    //     }).then(response => {
-    //         response.json().then(data =>{
-    //             console.log("Successful" + data);
-    //         })
-    //     })
-    // }
+    handleFormSubmit(e) {
+        e.preventDefault();
+        let userData = this.state;
+
+        fetch('api/mail/send-order',{
+            method: "POST",
+            body: JSON.stringify(userData),
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+        }).then(response => {
+            response.json().then(data =>{
+                console.log("Successful" + data);
+            })
+        })
+    }
 
     onSubmit(event) {
         event.preventDefault();

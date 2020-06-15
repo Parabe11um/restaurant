@@ -1,6 +1,6 @@
 export const handleFormSubmit = async (data) => {
     try {
-        const response = await fetch('example-api', {
+        const response = await fetch('api/mail/send-order', {
             method: "POST",
             body: JSON.stringify(data),
             headers: {

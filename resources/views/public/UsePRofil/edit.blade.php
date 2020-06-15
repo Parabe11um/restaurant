@@ -36,6 +36,10 @@
                 <input type="text" class="admin-inputs" id="family" name="family" value="{{$users->family}}">
                 <input type="text" class="admin-inputs" id="email" name="admin_email" value="{{$users->email}}">
                 <input type="text" class="admin-inputs" id="phone" name="phone" value="{{$users->phone}}">
+
+                <input id="password" type="password" class="admin-inputs @error('password') is-invalid @enderror" placeholder="{{ __('ПАРОЛЬ') }}" name="password" required autocomplete="current-password">
+                       
+           
                 <input class="auth-button" type="submit" value="Редактировать">
             </form>
         </div>
