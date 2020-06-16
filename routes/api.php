@@ -30,7 +30,7 @@ Route::group([
     function () {
         Route::get('/list', 'restaurantController@search')
             ->name('list');
-        Route::post('/view', 'restaurantController@view')
+        Route::get('/view', 'restaurantController@view')
             ->name('view');
     }
 );
