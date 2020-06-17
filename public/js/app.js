@@ -6428,7 +6428,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n\r\nbody{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.head{\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 100%;\r\n    min-height: 400px;\r\n    background-image: url(\"/images/hands.png\");\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n.head-name{\r\n    display: flex;\r\n    width: 100%;\r\n    margin: 0 auto;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n    font-size: 24px;\r\n    align-items: center;\r\n    color: #FFFFFF;\r\n    justify-content: center;\r\n}\r\n.head-text{\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    align-items: flex-start;\r\n    display: flex;\r\n    margin: 0 auto;\r\n    color: #FFFFFF;\r\n    padding: 0 400px;\r\n    justify-content: center;\r\n}\r\n.main-block{\r\n    padding: 50px;\r\n    margin: 0;\r\n}\r\n.main-text-block{\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 16px;\r\n    line-height: 19px;\r\n    display: flex;\r\n    color: #A39E9E;\r\n    text-align: justify;\r\n}\r\n.img{\r\n    display: flex;\r\n    width: 40%;\r\n    height: auto;\r\n}\r\n.main-block-img-with-capture{\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n    padding-bottom: 50px;\r\n}\r\n.main-img-capture{\r\n    width: 50%;\r\n    display: flex;\r\n    text-align: justify;\r\n    margin: 0;\r\n    align-items: center;\r\n}\r\n", ""]);
+exports.push([module.i, "\r\n\r\nbody{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.head-about{\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 100%;\r\n    min-height: 400px;\r\n    background-image: url(\"/images/hands.png\");\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n.head-name{\r\n    display: flex;\r\n    width: 100%;\r\n    margin: 0 auto;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n    font-size: 24px;\r\n    align-items: center;\r\n    color: #FFFFFF;\r\n    justify-content: center;\r\n}\r\n.head-text{\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    align-items: flex-start;\r\n    display: flex;\r\n    margin: 0 auto;\r\n    color: #FFFFFF;\r\n    padding: 0 400px;\r\n    justify-content: center;\r\n}\r\n.main-block{\r\n    padding: 50px;\r\n    margin: 0;\r\n}\r\n.main-text-block{\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 16px;\r\n    line-height: 19px;\r\n    display: flex;\r\n    color: #A39E9E;\r\n    text-align: justify;\r\n}\r\n.img{\r\n    display: flex;\r\n    width: 40%;\r\n    height: auto;\r\n}\r\n.main-block-img-with-capture{\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n    padding-bottom: 50px;\r\n}\r\n.main-img-capture{\r\n    width: 50%;\r\n    display: flex;\r\n    text-align: justify;\r\n    margin: 0;\r\n    align-items: center;\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Contacts/Contacts.css":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Contacts/Contacts.css ***!
+  \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\r\n.head-contacts {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 100%;\r\n    min-height: 400px;\r\n    background-image: url(\"/images/contacts.png\");\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n\r\n.head-name {\r\n    display: flex;\r\n    width: 100%;\r\n    margin: 0 auto;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n    font-size: 24px;\r\n    align-items: center;\r\n    color: #FFFFFF;\r\n    justify-content: center;\r\n}\r\n\r\n.head-text {\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    align-items: flex-start;\r\n    display: flex;\r\n    width: 50%;\r\n    margin: 0 auto;\r\n    color: #FFFFFF;\r\n    justify-content: center;\r\n}\r\n\r\n.main-contacts {\r\n    padding: 150px;\r\n    margin: 0;\r\n}\r\n\r\n.text {\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 16px;\r\n    line-height: 19px;\r\n    color: red;\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n.form-connect{\r\n    border: 1px solid grey;\r\n    border-radius: 10px;\r\n    width: 93%;\r\n    margin: 0 auto;\r\n    display: flex;\r\n    min-height: 400px;\r\n    margin-bottom: 150px;\r\n}\r\n.form-input{\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    width: 100%;\r\n    padding-top: 50px;\r\n    justify-content: space-around;\r\n}\r\n.form-name{\r\n    width: 100%;\r\n    display: block;\r\n    margin: 0 auto;\r\n    text-align: center;\r\n}\r\ninput{\r\n    display: block;\r\n    width: calc(100%/4);\r\n    height: 40px;\r\n    border-radius: 15px;\r\n    text-transform: uppercase;\r\n    padding-left: 10px;\r\n}\r\ninput:focus{\r\n    outline: none;\r\n}\r\n.input-text{\r\n    width: 92%;\r\n    display: block;\r\n    border-radius: 15px;\r\n    min-height: 200px;\r\n\r\n}\r\n", ""]);
 
 // exports
 
@@ -71284,7 +71303,7 @@ var handleFormSubmit = /*#__PURE__*/function () {
           case 0:
             _context.prev = 0;
             _context.next = 3;
-            return fetch('example-api', {
+            return fetch('api/mail/send-order', {
               method: "POST",
               body: JSON.stringify(data),
               headers: {
@@ -71483,7 +71502,7 @@ var About = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "head"
+        className: "head-about"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "head-name"
       }, "\u0420\u0410\u0411\u041E\u0422\u0410\u0415\u041C, \u0427\u0422\u041E\u0411\u042B \u0412\u0410\u041C \u0411\u042B\u041B\u041E \u0427\u0422\u041E \u0412\u042B\u0411\u0420\u0410\u0422\u042C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -71581,6 +71600,36 @@ var App = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
+/***/ "./resources/js/components/Contacts/Contacts.css":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/Contacts/Contacts.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./Contacts.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Contacts/Contacts.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/components/Contacts/Contacts.js":
 /*!******************************************************!*\
   !*** ./resources/js/components/Contacts/Contacts.js ***!
@@ -71592,6 +71641,8 @@ var App = /*#__PURE__*/function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Contacts_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contacts.css */ "./resources/js/components/Contacts/Contacts.css");
+/* harmony import */ var _Contacts_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contacts_css__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -71616,6 +71667,9 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+var text4 = '                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\n' + '                            labore et dolore\n' + '                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n' + '                            aliquip ex ea commodo\n' + '                            consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor\n' + '                            incididunt ut labore et\n' + '                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi\n' + '                            ut aliquip ex ea\n' + '                            commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\n' + '                            tempor incididunt ut\n' + '                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco\n' + '                            laboris nisi ut\n' + '                            aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\n' + '                            do eiusmod tempor\n' + '                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\n' + '                            exercitation ullamco laboris\n' + '                            nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing\n' + '                            elit, sed do eiusmod\n' + '                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud\n' + '                            exercitation ullamco\n' + '                            laboris nisi ut aliquip ex ea commodo consequat.';
+var submit = 'Ваше сообщение было отправлено, наш администратор свяжется с Вами с ближайшее время, спасибо за обрашение';
+
 var Contacts = /*#__PURE__*/function (_Component) {
   _inherits(Contacts, _Component);
 
@@ -71630,9 +71684,43 @@ var Contacts = /*#__PURE__*/function (_Component) {
   _createClass(Contacts, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
-      }, "This is our contacts!"));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+        className: "head-contacts"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        className: "head-name"
+      }, "\u0421\u0412\u042F\u0416\u0418\u0422\u0415\u0421\u042C \u0421 \u041D\u0410\u041C\u0418"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "head-text"
+      }, " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "main-block"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "main-text-block"
+      }, text4)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        className: "form-connect",
+        action: "#",
+        method: "get"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-input"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "form-name"
+      }, "\u0421\u0412\u042F\u0417\u0410\u0422\u042C\u0421\u042F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "name",
+        placeholder: "\u0424\u0418\u041E",
+        required: true
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "tel",
+        placeholder: "\u043D\u043E\u043C\u0435\u0440 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0430",
+        required: true
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "email",
+        placeholder: "E-Mail",
+        required: true
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "input-text",
+        type: "text"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        className: "button-link"
+      }, "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C")))));
     }
   }]);
 
@@ -72331,15 +72419,13 @@ var RestDetail = /*#__PURE__*/function (_Component) {
 
       var id = this.state.id;
       console.log(id);
-      fetch("/api/rest/list?r_id=".concat(id)).then(function (res) {
+      fetch("/api/rest/view?r_id=".concat(id)).then(function (res) {
         return res.json();
       }).then(function (result) {
         _this2.setState({
-          // restaurantData: result
-          restaurantData: result[id - 1]
-        });
+          restaurantData: result // restaurantData: result[id-1]
 
-        console.log(_this2.state.restaurantData);
+        });
       }, function (error) {
         console.log(error);
       });
@@ -72484,24 +72570,25 @@ var RestDetailForm = /*#__PURE__*/function (_Component) {
       this.setState(function (state) {
         return _defineProperty({}, name, value);
       });
-    } // handleFormSubmit(e) {
-    //     e.preventDefault();
-    //     let userData = this.state;
-    //
-    //     fetch('example-api',{
-    //         method: "POST",
-    //         body: JSON.stringify(userData),
-    //         headers: {
-    //             'Accept': 'application/json',
-    //             'Content-Type': 'application/json'
-    //         },
-    //     }).then(response => {
-    //         response.json().then(data =>{
-    //             console.log("Successful" + data);
-    //         })
-    //     })
-    // }
-
+    }
+  }, {
+    key: "handleFormSubmit",
+    value: function handleFormSubmit(e) {
+      e.preventDefault();
+      var userData = this.state;
+      fetch('api/mail/send-order', {
+        method: "POST",
+        body: JSON.stringify(userData),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      }).then(function (response) {
+        response.json().then(function (data) {
+          console.log("Successful" + data);
+        });
+      });
+    }
   }, {
     key: "onSubmit",
     value: function onSubmit(event) {
