@@ -25,7 +25,7 @@
 .head-text {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 24px;
     line-height: 16px;
     align-items: flex-start;
     display: flex;
@@ -53,10 +53,9 @@
     border: 1px solid grey;
     border-radius: 10px;
     width: 93%;
-    margin: 0 auto;
+    margin: 50px auto 100px auto;
     display: flex;
     min-height: 400px;
-    margin-bottom: 150px;
 }
 .form-input{
     display: flex;
