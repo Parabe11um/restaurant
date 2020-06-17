@@ -6428,7 +6428,26 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\r\n\r\nbody{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\n.head{\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    width: 100%;\r\n    min-height: 400px;\r\n    background-image: url(\"/images/hands.png\");\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    background-size: cover;\r\n}\r\n.head-name{\r\n    display: flex;\r\n    width: 100%;\r\n    margin: 0 auto;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n    font-size: 24px;\r\n    align-items: center;\r\n    color: #FFFFFF;\r\n    justify-content: center;\r\n}\r\n.head-text{\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    align-items: flex-start;\r\n    display: flex;\r\n    margin: 0 auto;\r\n    color: #FFFFFF;\r\n    padding: 0 400px;\r\n    justify-content: center;\r\n}\r\n.main-block{\r\n    padding: 50px;\r\n    margin: 0;\r\n}\r\n.main-text-block{\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 16px;\r\n    line-height: 19px;\r\n    display: flex;\r\n    color: #A39E9E;\r\n    text-align: justify;\r\n}\r\n.img{\r\n    display: flex;\r\n    width: 40%;\r\n    height: auto;\r\n}\r\n.main-block-img-with-capture{\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-around;\r\n    padding-bottom: 50px;\r\n}\r\n.main-img-capture{\r\n    width: 50%;\r\n    display: flex;\r\n    text-align: justify;\r\n    margin: 0;\r\n    align-items: center;\r\n}\r\n", ""]);
+exports.push([module.i, "\n\nbody{\n    margin: 0;\n    padding: 0;\n}\n\n.head-about{\n    display: flex;\n    flex-wrap: wrap;\n    width: 100%;\n    min-height: 400px;\n    background-image: url(\"/images/hands.png\");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n}\n.head-name{\n    display: flex;\n    width: 100%;\n    margin: 0 auto;\n    font-style: normal;\n    font-weight: 300;\n    font-size: 24px;\n    align-items: center;\n    color: #FFFFFF;\n    justify-content: center;\n}\n.head-text{\n    font-style: normal;\n    font-weight: normal;\n    font-size: 14px;\n    line-height: 16px;\n    align-items: flex-start;\n    display: flex;\n    margin: 0 auto;\n    color: #FFFFFF;\n    padding: 0 400px;\n    justify-content: center;\n}\n.main-block{\n    padding: 50px;\n    margin: 0;\n}\n.main-text-block{\n    font-style: normal;\n    font-weight: normal;\n    font-size: 16px;\n    line-height: 19px;\n    display: flex;\n    color: #A39E9E;\n    text-align: justify;\n}\n.img{\n    display: flex;\n    width: 40%;\n    height: auto;\n}\n.main-block-img-with-capture{\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-around;\n    padding-bottom: 50px;\n}\n.main-img-capture{\n    width: 50%;\n    display: flex;\n    text-align: justify;\n    margin: 0;\n    align-items: center;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Contacts/Contacts.css":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/components/Contacts/Contacts.css ***!
+  \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.head-contacts {\n    display: flex;\n    flex-wrap: wrap;\n    width: 100%;\n    min-height: 400px;\n    background-image: url(\"/images/contacts.png\");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n}\n\n.head-name {\n    display: flex;\n    width: 100%;\n    margin: 0 auto;\n    font-style: normal;\n    font-weight: 300;\n    font-size: 24px;\n    align-items: center;\n    color: #FFFFFF;\n    justify-content: center;\n}\n\n.head-text {\n    font-style: normal;\n    font-weight: normal;\n    font-size: 24px;\n    line-height: 16px;\n    align-items: flex-start;\n    display: flex;\n    width: 50%;\n    margin: 0 auto;\n    color: #FFFFFF;\n    justify-content: center;\n}\n\n.main-contacts {\n    padding: 150px;\n    margin: 0;\n}\n\n.text {\n    font-style: normal;\n    font-weight: normal;\n    font-size: 16px;\n    line-height: 19px;\n    color: red;\n    display: flex;\n    align-items: center;\n}\n.form-connect{\n    border: 1px solid grey;\n    border-radius: 10px;\n    width: 93%;\n    margin: 50px auto 100px auto;\n    display: flex;\n    min-height: 400px;\n}\n.form-input{\n    display: flex;\n    flex-direction: row;\n    flex-wrap: wrap;\n    width: 100%;\n    padding-top: 50px;\n    justify-content: space-around;\n}\n.form-name{\n    width: 100%;\n    display: block;\n    margin: 0 auto;\n    text-align: center;\n}\ninput{\n    display: block;\n    width: calc(100%/4);\n    height: 40px;\n    border-radius: 15px;\n    text-transform: uppercase;\n    padding-left: 10px;\n}\ninput:focus{\n    outline: none;\n}\n.input-text{\n    width: 92%;\n    display: block;\n    border-radius: 15px;\n    min-height: 200px;\n\n}\n", ""]);
 
 // exports
 
@@ -6447,7 +6466,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".FindRest__container {\r\n    max-width: 1170px;\r\n    margin: 0 auto;\r\n    text-align: center;\r\n    padding: 20px 0;\r\n}\r\n.FindRest__titleWrap {\r\n    margin-bottom: 35px;\r\n}\r\n.FindRest__title {\r\n    font-weight: 300;\r\n}\r\n.FindRest__searchForm form{\r\n    border: 1px solid #9B9999;\r\n    box-sizing: border-box;\r\n    border-radius: 50px;\r\n    max-width: 600px;\r\n    margin: 0 auto;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    padding: 5px 8px;\r\n}\r\n.FindRest__searchForm_margin {\r\n    margin-bottom: 75px;\r\n}\r\n.FindRest__input {\r\n    border: none;\r\n    padding-left: 35px;\r\n    width: 100%;\r\n}\r\n.FindRest__input:focus {\r\n    outline: none\r\n}\r\n.FindRest__input::-webkit-input-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n.FindRest__input::-moz-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n.FindRest__input:-ms-input-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n.FindRest__input::-ms-input-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n.FindRest__input::placeholder {\r\n    text-transform: uppercase;\r\n}\r\n.button-linkAlt {\r\n    background: #FFFFFF;\r\n    border: 1px solid #E7475E;\r\n    box-sizing: border-box;\r\n    border-radius: 50px;\r\n    color: #E7475E;\r\n    text-transform: uppercase;\r\n    padding: 10px 15px;\r\n    cursor: pointer;\r\n    text-decoration: none;\r\n}\r\n", ""]);
+exports.push([module.i, ".FindRest__container {\n    max-width: 1170px;\n    margin: 0 auto;\n    text-align: center;\n    padding: 20px 0;\n}\n.FindRest__titleWrap {\n    margin-bottom: 35px;\n}\n.FindRest__title {\n    font-weight: 300;\n}\n.FindRest__searchForm form{\n    border: 1px solid #9B9999;\n    box-sizing: border-box;\n    border-radius: 50px;\n    max-width: 600px;\n    margin: 0 auto;\n    display: flex;\n    justify-content: space-between;\n    padding: 5px 8px;\n}\n.FindRest__searchForm_margin {\n    margin-bottom: 75px;\n}\n.FindRest__input {\n    border: none;\n    padding-left: 35px;\n    width: 100%;\n}\n.FindRest__input:focus {\n    outline: none\n}\n.FindRest__input::-webkit-input-placeholder {\n    text-transform: uppercase;\n}\n.FindRest__input::-moz-placeholder {\n    text-transform: uppercase;\n}\n.FindRest__input:-ms-input-placeholder {\n    text-transform: uppercase;\n}\n.FindRest__input::-ms-input-placeholder {\n    text-transform: uppercase;\n}\n.FindRest__input::placeholder {\n    text-transform: uppercase;\n}\n.button-linkAlt {\n    background: #FFFFFF;\n    border: 1px solid #E7475E;\n    box-sizing: border-box;\n    border-radius: 50px;\n    color: #E7475E;\n    text-transform: uppercase;\n    padding: 10px 15px;\n    cursor: pointer;\n    text-decoration: none;\n}\n", ""]);
 
 // exports
 
@@ -6466,7 +6485,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, ".FindRestItem__wrap {\r\n    display: flex;\r\n    border: 1px solid #9B9999;\r\n    overflow: hidden;\r\n    border-radius: 10px;\r\n    padding: 20px 15px;\r\n}\r\n.FindRestItem__wrap_margin {\r\n    margin-bottom: 40px;\r\n}\r\n.FindRestItem__wrap_margin:last-child {\r\n    margin-bottom: 75px;\r\n}\r\n.FindRestItem__imageWrap {\r\n    width: 300px; \r\n    height: 200px;\r\n}\r\n.FindRestItem__image {\r\n    width: 300px; \r\n    height: 200px;\r\n}\r\n.FindRestItem__info {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: space-between;\r\n    max-width: 70%;\r\n    padding-left: 20px;\r\n}\r\n.info__title {\r\n    margin: 10px auto -5px 0px;\r\n    text-transform: uppercase;\r\n    padding-bottom: 15px;\r\n}\r\n.info__text {\r\n    text-align: left;\r\n    color: #A39E9E;\r\n    padding-bottom: 15px;\r\n}\r\n\r\n\r\n", ""]);
+exports.push([module.i, ".FindRestItem__wrap {\n    display: flex;\n    border: 1px solid #9B9999;\n    overflow: hidden;\n    border-radius: 10px;\n    padding: 20px 15px;\n}\n.FindRestItem__wrap_margin {\n    margin-bottom: 40px;\n}\n.FindRestItem__wrap_margin:last-child {\n    margin-bottom: 75px;\n}\n.FindRestItem__imageWrap {\n    width: 300px; \n    height: 200px;\n}\n.FindRestItem__image {\n    width: 300px; \n    height: 200px;\n}\n.FindRestItem__info {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-between;\n    max-width: 70%;\n    padding-left: 20px;\n}\n.info__title {\n    margin: 10px auto -5px 0px;\n    text-transform: uppercase;\n    padding-bottom: 15px;\n}\n.info__text {\n    text-align: left;\n    color: #A39E9E;\n    padding-bottom: 15px;\n}\n\n\n", ""]);
 
 // exports
 
@@ -6485,7 +6504,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".footer {\r\n    display: flex;\r\n    min-height: 100px;\r\n    width: 100%;\r\n    background-color: #2D2D2D;\r\n    box-sizing: border-box;\r\n    padding: 25px;\r\n}\r\n.footer-title {\r\n    margin: 15px auto;\r\n    color: antiquewhite;\r\n}\r\n", ""]);
+exports.push([module.i, ".footer {\n    display: flex;\n    min-height: 100px;\n    width: 100%;\n    background-color: #2D2D2D;\n    box-sizing: border-box;\n    padding: 25px;\n}\n.footer-title {\n    margin: 15px auto;\n    color: antiquewhite;\n}\n", ""]);
 
 // exports
 
@@ -6504,7 +6523,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".Header{\r\n    display: flex;\r\n    background: rgba(0, 0, 0, 0);\r\n    height: 80px;\r\n    flex-direction: row;\r\n    justify-content: space-around;\r\n    border-bottom: 1px solid #fff;\r\n    box-shadow: 0 0 3px 0 gray;\r\n}\r\n\r\n.Header .Menu{\r\n    display: flex;\r\n    width: 100%;\r\n    height: 80px;\r\n    background: rgba(0, 0, 0, 0);\r\n    justify-content: space-around;\r\n}\r\n\r\n.menu-links{\r\n    font-size: 14px;\r\n    font-weight: normal;\r\n    display: block;\r\n    align-self: center;\r\n    text-decoration: none;\r\n    text-transform: uppercase;\r\n    color: #000;\r\n}\r\n\r\n.menu-links:hover{\r\n    border-bottom: 3px solid #E7475E;\r\n}\r\n\r\n.selected{\r\n    border-bottom: 3px solid #E7475E;\r\n}\r\n\r\n.Menu .button-link{\r\n    font-size: 14px;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, ".Header{\n    display: flex;\n    background: rgba(0, 0, 0, 0);\n    height: 80px;\n    flex-direction: row;\n    justify-content: space-around;\n    border-bottom: 1px solid #fff;\n    box-shadow: 0 0 3px 0 gray;\n}\n\n.Header .Menu{\n    display: flex;\n    width: 100%;\n    height: 80px;\n    background: rgba(0, 0, 0, 0);\n    justify-content: space-around;\n}\n\n.menu-links{\n    font-size: 14px;\n    font-weight: normal;\n    display: block;\n    align-self: center;\n    text-decoration: none;\n    text-transform: uppercase;\n    color: #000;\n}\n\n.menu-links:hover{\n    border-bottom: 3px solid #E7475E;\n}\n\n.selected{\n    border-bottom: 3px solid #E7475E;\n}\n\n.Menu .button-link{\n    font-size: 14px;\n}\n\n", ""]);
 
 // exports
 
@@ -6523,7 +6542,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".html, body, div, p {\r\n    margin: 0;\r\n    font-family: 'Roboto', sans-serif;\r\n}\r\n\r\n.container {\r\n    width: 1170px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.main{\r\n    height: 100vh;\r\n    background-image: url(\"/images/mainBg.png\");\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n.main-page{\r\n    height: 80vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n    align-content: center;\r\n}\r\n\r\n.main .menu-links {\r\n    color: #fff;\r\n}\r\n\r\nh1{\r\n    color: #fff;\r\n    max-width: 50%;\r\n    font-size: 34px;\r\n    font-weight: normal;\r\n    text-align: center;\r\n    align-self: center;\r\n    padding-bottom: 40px;\r\n    border-bottom: 1px solid #fff;\r\n    margin-bottom: 55px;\r\n}\r\n\r\n.button-link{\r\n    background: #E7475E;\r\n    border-radius: 50px;\r\n    text-decoration: none;\r\n    text-transform: uppercase;\r\n    padding: 10px 15px;\r\n    text-align: center;\r\n    align-self: center;\r\n    color: #fff;\r\n}\r\n", ""]);
+exports.push([module.i, ".html, body, div, p {\n    margin: 0;\n    font-family: 'Roboto', sans-serif;\n}\n\n.container {\n    width: 1170px;\n    margin: 0 auto;\n}\n\n.main{\n    height: 100vh;\n    background-image: url(\"/images/mainBg.png\");\n    background-size: cover;\n    background-repeat: no-repeat;\n}\n\n.main-page{\n    height: 80vh;\n    display: flex;\n    justify-content: center;\n    flex-direction: column;\n    align-content: center;\n}\n\n.main .menu-links {\n    color: #fff;\n}\n\nh1{\n    color: #fff;\n    max-width: 50%;\n    font-size: 34px;\n    font-weight: normal;\n    text-align: center;\n    align-self: center;\n    padding-bottom: 40px;\n    border-bottom: 1px solid #fff;\n    margin-bottom: 55px;\n}\n\n.button-link{\n    background: #E7475E;\n    border-radius: 50px;\n    text-decoration: none;\n    text-transform: uppercase;\n    padding: 10px 15px;\n    text-align: center;\n    align-self: center;\n    color: #fff;\n}\n", ""]);
 
 // exports
 
@@ -6542,7 +6561,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".RestDetail-container {\r\n    width: 80%;\r\n    padding: 15px;\r\n    border: 1px solid;\r\n    margin: 25px auto;\r\n    border: 1px solid #9B9999;\r\n    box-sizing: border-box;\r\n    border-radius: 10px;\r\n}\r\n\r\n.RestDetail-description {\r\n    padding-top: 40px;\r\n}\r\n\r\n.RestDetail-info div {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n}\r\n\r\n.RestDetail-info div span {\r\n    width: 50%;\r\n    margin: 10px 0;\r\n    padding: 0 5px;\r\n    box-sizing: border-box;\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 15px;\r\n    line-height: 18px;\r\n}\r\n\r\n.RestDetail-container_title  {\r\n    padding: 0 20px;\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    align-items: center;\r\n    text-align: center;\r\n    color: #000;\r\n}\r\n\r\n.RestDetail-description-text {\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    display: flex;\r\n    align-items: center;\r\n    color: #A39E9E;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, ".RestDetail-container {\n    width: 80%;\n    padding: 15px;\n    border: 1px solid;\n    margin: 25px auto;\n    border: 1px solid #9B9999;\n    box-sizing: border-box;\n    border-radius: 10px;\n}\n\n.RestDetail-description {\n    padding-top: 40px;\n}\n\n.RestDetail-info div {\n    display: flex;\n    flex-wrap: wrap;\n}\n\n.RestDetail-info div span {\n    width: 50%;\n    margin: 10px 0;\n    padding: 0 5px;\n    box-sizing: border-box;\n    font-family: Roboto;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 15px;\n    line-height: 18px;\n}\n\n.RestDetail-container_title  {\n    padding: 0 20px;\n    font-family: Roboto;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 14px;\n    line-height: 16px;\n    align-items: center;\n    text-align: center;\n    color: #000;\n}\n\n.RestDetail-description-text {\n    font-family: Roboto;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 14px;\n    line-height: 16px;\n    display: flex;\n    align-items: center;\n    color: #A39E9E;\n}\n\n", ""]);
 
 // exports
 
@@ -6561,7 +6580,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".RestDetailForm-form {\r\n    width: 80%;\r\n    margin: 25px auto;\r\n}\r\n\r\n.RestDetailForm-container {\r\n    padding: 40px 15px 15px;\r\n    border: 1px solid;\r\n    border: 1px solid #9B9999;\r\n    box-sizing: border-box;\r\n    border-radius: 10px;\r\n\r\n}\r\n\r\n.RestDetailForm-title {\r\n    padding: 0 20px;\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    align-items: center;\r\n    text-align: center;\r\n    color: #000;\r\n}\r\n\r\n.form-container {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-between;\r\n    width: 90%;\r\n    margin: 0 auto;\r\n}\r\n\r\n.form-container input {\r\n    padding: 5px 10px;\r\n    margin: 10px;\r\n    width: 30%;\r\n    height: 30px;\r\n    border: 1px solid #9B9999;\r\n    box-sizing: border-box;\r\n    border-radius: 50px;\r\n}\r\n\r\n.form-container input::-webkit-input-placeholder, .form-container textarea::-webkit-input-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n\r\n.form-container input::-moz-placeholder, .form-container textarea::-moz-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n\r\n.form-container input:-ms-input-placeholder, .form-container textarea:-ms-input-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n\r\n.form-container input::-ms-input-placeholder, .form-container textarea::-ms-input-placeholder {\r\n    text-transform: uppercase;\r\n}\r\n\r\n.form-container input::placeholder,\r\n.form-container textarea::placeholder {\r\n    text-transform: uppercase;\r\n}\r\n\r\n.form-container textarea {\r\n    outline: none;\r\n    margin: 20px 0;\r\n    resize: none;\r\n    width: 100%;\r\n    min-height: 200px;\r\n    padding: 22px;\r\n    border: 1px solid #9B9999;\r\n    box-sizing: border-box;\r\n    border-radius: 50px;\r\n}\r\n\r\n.form-container textarea:focus,\r\n.form-container input:focus{\r\n    outline: none;\r\n}\r\n\r\n.form-container .button-link-btn {\r\n    margin: 0 auto;\r\n    border: none;\r\n}\r\n\r\n.form-container .button-link-btn:focus {\r\n    outline: none;\r\n}\r\n\r\n.form-container .button-link-btn:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n\r\n\r\n", ""]);
+exports.push([module.i, ".RestDetailForm-form {\n    width: 80%;\n    margin: 25px auto;\n}\n\n.RestDetailForm-container {\n    padding: 40px 15px 15px;\n    border: 1px solid;\n    border: 1px solid #9B9999;\n    box-sizing: border-box;\n    border-radius: 10px;\n\n}\n\n.RestDetailForm-title {\n    padding: 0 20px;\n    font-family: Roboto;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 14px;\n    line-height: 16px;\n    align-items: center;\n    text-align: center;\n    color: #000;\n}\n\n.form-container {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    width: 90%;\n    margin: 0 auto;\n}\n\n.form-container input {\n    padding: 5px 10px;\n    margin: 10px;\n    width: 30%;\n    height: 30px;\n    border: 1px solid #9B9999;\n    box-sizing: border-box;\n    border-radius: 50px;\n}\n\n.form-container input::-webkit-input-placeholder, .form-container textarea::-webkit-input-placeholder {\n    text-transform: uppercase;\n}\n\n.form-container input::-moz-placeholder, .form-container textarea::-moz-placeholder {\n    text-transform: uppercase;\n}\n\n.form-container input:-ms-input-placeholder, .form-container textarea:-ms-input-placeholder {\n    text-transform: uppercase;\n}\n\n.form-container input::-ms-input-placeholder, .form-container textarea::-ms-input-placeholder {\n    text-transform: uppercase;\n}\n\n.form-container input::placeholder,\n.form-container textarea::placeholder {\n    text-transform: uppercase;\n}\n\n.form-container textarea {\n    outline: none;\n    margin: 20px 0;\n    resize: none;\n    width: 100%;\n    min-height: 200px;\n    padding: 22px;\n    border: 1px solid #9B9999;\n    box-sizing: border-box;\n    border-radius: 50px;\n}\n\n.form-container textarea:focus,\n.form-container input:focus{\n    outline: none;\n}\n\n.form-container .button-link-btn {\n    margin: 0 auto;\n    border: none;\n}\n\n.form-container .button-link-btn:focus {\n    outline: none;\n}\n\n.form-container .button-link-btn:hover {\n    cursor: pointer;\n}\n\n\n\n", ""]);
 
 // exports
 
@@ -6580,7 +6599,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".RestDetailHeader {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 100%;\r\n    min-height: 327px;\r\n    background-color: #A39E9E;\r\n}\r\n\r\n.RestDetailHeader-title {\r\n    margin: 100px auto 10px;\r\n    font-family: Roboto;\r\n    font-style: normal;\r\n    font-weight: 300;\r\n    font-size: 24px;\r\n    line-height: 28px;\r\n    display: flex;\r\n    align-items: center;\r\n    text-align: center;\r\n    color: #FFFFFF;\r\n}\r\n\r\n.RestDetailHeader-description {\r\n    width: 50%;\r\n    margin: 0 auto;\r\n    font-family: Roboto;\r\n    text-align: center;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 14px;\r\n    line-height: 16px;\r\n    display: flex;\r\n    align-items: center;\r\n    color: #FFFFFF;\r\n}\r\n\r\n.RestDetailHeader .button-link-btn {\r\n    margin: 50px auto;\r\n    border: none;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, ".RestDetailHeader {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n    min-height: 327px;\n    background-color: #A39E9E;\n}\n\n.RestDetailHeader-title {\n    margin: 100px auto 10px;\n    font-family: Roboto;\n    font-style: normal;\n    font-weight: 300;\n    font-size: 24px;\n    line-height: 28px;\n    display: flex;\n    align-items: center;\n    text-align: center;\n    color: #FFFFFF;\n}\n\n.RestDetailHeader-description {\n    width: 50%;\n    margin: 0 auto;\n    font-family: Roboto;\n    text-align: center;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 14px;\n    line-height: 16px;\n    display: flex;\n    align-items: center;\n    color: #FFFFFF;\n}\n\n.RestDetailHeader .button-link-btn {\n    margin: 50px auto;\n    border: none;\n}\n\n", ""]);
 
 // exports
 
@@ -71483,7 +71502,7 @@ var About = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "head"
+        className: "head-about"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "head-name"
       }, "\u0420\u0410\u0411\u041E\u0422\u0410\u0415\u041C, \u0427\u0422\u041E\u0411\u042B \u0412\u0410\u041C \u0411\u042B\u041B\u041E \u0427\u0422\u041E \u0412\u042B\u0411\u0420\u0410\u0422\u042C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -71581,6 +71600,36 @@ var App = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
+/***/ "./resources/js/components/Contacts/Contacts.css":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/Contacts/Contacts.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./Contacts.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/Contacts/Contacts.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/components/Contacts/Contacts.js":
 /*!******************************************************!*\
   !*** ./resources/js/components/Contacts/Contacts.js ***!
@@ -71592,6 +71641,8 @@ var App = /*#__PURE__*/function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Contacts_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contacts.css */ "./resources/js/components/Contacts/Contacts.css");
+/* harmony import */ var _Contacts_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contacts_css__WEBPACK_IMPORTED_MODULE_1__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -71616,6 +71667,8 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+var submit = 'Ваше сообщение было отправлено, наш администратор свяжется с Вами с ближайшее время, спасибо за обрашение';
+
 var Contacts = /*#__PURE__*/function (_Component) {
   _inherits(Contacts, _Component);
 
@@ -71630,9 +71683,39 @@ var Contacts = /*#__PURE__*/function (_Component) {
   _createClass(Contacts, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
-      }, "This is our contacts!"));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+        className: "head-contacts"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        className: "head-name"
+      }, "\u0421\u0412\u042F\u0416\u0418\u0422\u0415\u0421\u042C \u0421 \u041D\u0410\u041C\u0418"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "head-text"
+      }, " \u0414\u043B\u044F \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u044F \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0439 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u0438, \u0441\u0432\u044F\u0436\u0438\u0442\u0435\u0441\u044C \u0441 \u043D\u0430\u043C\u0438")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        className: "form-connect",
+        action: "#",
+        method: "get"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-input"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "form-name"
+      }, "\u0421\u0412\u042F\u0417\u0410\u0422\u042C\u0421\u042F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "name",
+        placeholder: "\u0424\u0418\u041E",
+        required: true
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "tel",
+        placeholder: "\u043D\u043E\u043C\u0435\u0440 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0430",
+        required: true
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "email",
+        placeholder: "E-Mail",
+        required: true
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "input-text",
+        type: "text"
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        className: "button-link"
+      }, "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C")))));
     }
   }]);
 
@@ -72746,8 +72829,8 @@ if (document.getElementById('root')) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\OpenServer(5.3.7)\domains\restaurant\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\OpenServer(5.3.7)\domains\restaurant\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/evgeniyakharanen/PhpstormProjects/restaurants/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/evgeniyakharanen/PhpstormProjects/restaurants/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
