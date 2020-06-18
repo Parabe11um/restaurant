@@ -36,16 +36,17 @@
                 <label for="email">Adminemail</label>
                 <input type="text" class="from-control" id="email" name="email" >
               </div>-->
-
-                <input type="text" class="admin-inputs" id="name" name="name" value="{{$users->name}}">
-                <input type="text" class="admin-inputs" id="family" name="family" value="{{$users->family}}">
-                <input type="text" class="admin-inputs" id="email" name="admin_email" value="{{$users->email}}">
-                <input type="text" class="admin-inputs" id="phone" name="phone" value="{{$users->phone}}">
-
-                <input id="password" type="password" class="admin-inputs @error('password') is-invalid @enderror" placeholder="{{ __('ПАРОЛЬ') }}" name="password" required autocomplete="current-password">
-
-
+                <div class="form-row">
+                    <input type="text" class="admin-inputs" id="name" name="name" value="{{$users->name}}">
+                    <input type="text" class="admin-inputs" id="family" name="family" value="{{$users->family}}">
+                    <input type="text" class="admin-inputs" id="email" name="admin_email" value="{{$users->email}}">
+                </div>
+                <div class="form-row">
+                    <input type="text" class="admin-inputs" id="phone" name="phone" value="{{$users->phone}}">
+                    <input id="password" type="password" class="admin-inputs @error('password') is-invalid @enderror" placeholder="{{ __('ПАРОЛЬ') }}" name="password" required autocomplete="current-password">
+                </div>
                 <input class="auth-button" type="submit" value="Редактировать">
+
             </form>
         </div>
     </div>
