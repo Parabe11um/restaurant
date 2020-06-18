@@ -36,7 +36,7 @@
                         </button>
 
                         <div class="remember-block">
-                            <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                            <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
                             <label class="remember-label" for="remember">
                                 {{ __('Запомнить меня') }}
                             </label>
@@ -48,8 +48,6 @@
                                 </a>
                             </div>
                         @endif
-
-
                     </form>
                 </div>
             </div>

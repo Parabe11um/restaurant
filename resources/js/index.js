@@ -9,6 +9,7 @@ import Main from "./components/Main/Main";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import {RestDetail} from "./components/RestDetail/RestDetail";
+import Home from "./components/Admin/Home/Home";
 
 if(document.getElementById('root')){
     ReactDOM.render(
@@ -20,6 +21,7 @@ if(document.getElementById('root')){
                 <Route path='/restaurants' exact component={FindRest} />
                 <Route path='/restaurants/:id' exact component={RestDetail} />
                 <Route path='/contacts' component={Contacts} />
+                <Route path='/home' exact component={Home} />
                 <Route path='/' component={Main} />
                 <Redirect to='/' exact />
                 <App />
