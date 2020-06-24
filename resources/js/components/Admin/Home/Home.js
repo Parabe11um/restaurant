@@ -5,8 +5,7 @@ class Home extends Component {
     render() {
         return (
             <div className="container home">
-                This is home component!
-                Place here what should be for restaurant keeper.
+                This is home !
             </div>
         );
     }

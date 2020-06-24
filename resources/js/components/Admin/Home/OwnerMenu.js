@@ -5,7 +5,7 @@ import {EditRest} from './EditRest/EditRest'
 import './OwnerMenu.css'
 
 class OwnerMenu extends Component {
-    state ={
+    state = {
         infoData:{
             name: 'ООО ИНКОРПОРАТЕД',
             inn: '12345678',
