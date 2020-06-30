@@ -15,7 +15,8 @@ class CreateUseadminRequest extends FormRequest
      */
     public function authorize()
     {
-        return Auth::check();
+        return Auth::check(); true;
+
     }
 
     /**
@@ -31,7 +32,8 @@ class CreateUseadminRequest extends FormRequest
          'patronymic' => 'required|max:50|min:2',
           'family' => 'required|max:50|min:2',
          'phone' => 'size:20',
-         'email' => 'email:rfc,dns',
+         'email' => 'required|email|unique:users,email,'.$id,
+         'password' => 'required|confirmed|alpha_num|min:6',
          'Photo file'=>'url',
          'title' => 'required|max:50|min:2',
         'description' => 'required|max:10000|min:10',
