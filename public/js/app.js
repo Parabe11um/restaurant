@@ -71738,7 +71738,7 @@ var Home = /*#__PURE__*/function (_Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container home"
-      }, "This is home !");
+      }, "This is home component! Place here what should be for restaurant keeper.");
     }
   }]);
 

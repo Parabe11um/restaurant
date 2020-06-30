@@ -49,7 +49,6 @@ class About extends Component {
     render() {
         return (
             <>
-
           <div className='head-about'>
               <h1 className="head-name">РАБОТАЕМ, ЧТОБЫ ВАМ БЫЛО ЧТО ВЫБРАТЬ</h1>
               <p className="head-text"> {text}</p>

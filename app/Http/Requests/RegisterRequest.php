@@ -21,12 +21,13 @@ class RegisterRequest extends FormRequest
      *
      * @return array
      */
-    public function rules()
-    {
-        return [
-            'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|min:6|confirmed',
-        ];
-    }
+   public function rules()
+	{
+        $id = $this->route('users');
+		return [
+            'name' => 'required|min:3',
+            'email' => 'required|email|unique:users,email,'.$id,
+            'password' => 'required|confirmed|alpha_num|min:6'
+		];
+	}
 }

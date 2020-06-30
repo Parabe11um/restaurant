@@ -21,7 +21,7 @@ class UseAdmin extends Model
 ];
            public function user()
            {
-               return $this->belongsTo(User::class, 'userId' );
+               return $this->belongsTo(User::class, 'id' );
            }
     /*  const rules = [
         'name' => 'Required|max:50|min:2',
