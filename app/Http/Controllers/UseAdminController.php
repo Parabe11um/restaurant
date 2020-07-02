@@ -95,54 +95,28 @@ class UseAdminController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-   
-            public function update(Request $request, $id)
-         {
+    public function update(Request $request, $id)
+    {
+        $users= User::findOrFail($id);
+        $users->fill($request->all());
 
-    
-               $users= User::findOrFail(Auth::user()->id);
-
-            $users->fill($request->all());
-             $request->has('family');
-
-               if ($users != null) {
-       
-             $users= User::findOrFail(Auth::user()->id);
-             $users->fill($request->all());
-             $request->has('password');
-
-             $users->password = bcrypt($users->password);
-        
-         
-             // update password
-        
-             if (!$users->save()) {
-                 return redirect()->back()->withErrors('Update error');
-             }
-             return redirect('home');
-         }
-          else {
-          
-        $users = User::create([
-                      
-                     ['family' => 'family'],
-                       ['phone' => 'phone']
-                    ]);
-
-                     if (!$users->save()) {
-                 return redirect()->back()->withErrors('Update error');
-             }
-             return redirect('home');
-         
-     // Session::flash('footer_message', "CREATED");
+         $users->password = bcrypt($users); 
+         $request->has('password');
+       // update password
+           
      
-     }
- }
-                
-            
+
+      
+
+
+        if(!$users->save()){
+            return redirect()->back()->withErrors('Update error');
+        }
+              return redirect('home');  
+                       }
 
    
-         
+
     
 
     /**
@@ -162,6 +136,5 @@ class UseAdminController extends Controller
  
                        }
 
-                           
     
 }

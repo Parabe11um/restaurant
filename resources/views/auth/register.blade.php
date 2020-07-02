@@ -26,7 +26,18 @@
                     <strong>{{ $errors->first('name') }}</strong>
                 </span>
                 @endif
-              
+                <input id="family" type="text" class="admin-inputs" name="family" value="{{ old('family') }}" placeholder="Фамилия" required autofocus>
+                @if ($errors->has('family'))
+                    <span class="help-block">
+                    <strong>{{ $errors->first('family') }}</strong>
+                </span>
+                @endif
+                <input id="phone" type="text" class="admin-inputs" name="phone" value="{{ old('phone') }}" placeholder="Телефон" required autofocus>
+                @if ($errors->has('phone'))
+                    <span class="help-block">
+                    <strong>{{ $errors->first('phone') }}</strong>
+                </span>
+                @endif
             </div>
             <div class="form-row">
                 <input id="email" type="email" class="admin-inputs @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" placeholder="{{ __('e-mail') }}" required autocomplete="email" autofocus>

@@ -27,7 +27,7 @@
     </div>
     <div class="container">
         <div class="form-block">
-            <form method="POST" action="{{route('UsePRofil.update',[Auth::user()->id])}}">
+            <form class="auth-form" method="POST" action="{{route('UsePRofil.update',[Auth::user()->id])}}">
 
             {{csrf_field()}}
             {{method_field('put')}}

@@ -82,10 +82,10 @@ class RegisterController extends Controller
    
         $user=User::create([
             'name' => $data['name'],
-         
+            'family' => $data['family'],
             'email' => $data['email'],   
             'password' => bcrypt($data['password']),
-            
+             'phone' => $data['phone']
 
         ]);
         $role=Role::where('slug','author')->first();
